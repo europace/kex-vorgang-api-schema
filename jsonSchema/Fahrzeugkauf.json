@@ -1,0 +1,39 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Fahrzeugkauf",
+  "type" : "object",
+  "javaType" : "generated.finanzbedarf.Fahrzeugkauf",
+  "properties" : {
+    "modell" : {
+      "type" : "string"
+    },
+    "marke" : {
+      "type" : "string"
+    },
+    "kaufpreis" : {
+      "type" : "Decimal"
+    },
+    "erstzulassungsdatum" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "laufleistung" : {
+      "type" : "Integer"
+    },
+    "kw" : {
+      "type" : "Integer"
+    },
+    "beglicheneKosten" : {
+      "type" : "Decimal"
+    },
+    "ps" : {
+      "type" : "Integer"
+    },
+    "anbieter" : {
+      "type" : "string",
+      "javaType" : "generated.finanzbedarf.Fahrzeuganbieter",
+      "$ref" : "Fahrzeuganbieter.json"
+    }
+  }
+}

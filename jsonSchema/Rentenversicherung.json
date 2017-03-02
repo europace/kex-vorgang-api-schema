@@ -1,0 +1,16 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Rentenversicherung",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.beschaeftigung.Rentenversicherung",
+  "properties" : {
+    "anschrift" : {
+      "type" : "object",
+      "javaType" : "generated.Anschrift",
+      "$ref" : "Anschrift.json"
+    },
+    "name" : {
+      "type" : "string"
+    }
+  }
+}

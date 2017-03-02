@@ -1,0 +1,7 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Immobilienart",
+  "type" : "string",
+  "javaType" : "generated.haushalt.Immobilienart",
+  "enum" : [ "EIGENTUMSWOHNUNG", "EINFAMILIENHAUS", "MEHRFAMILIENHAUS", "BUEROGEBAEUDE" ]
+}

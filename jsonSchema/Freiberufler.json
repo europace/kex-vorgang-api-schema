@@ -1,0 +1,60 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Freiberufler",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.beschaeftigung.Freiberufler",
+  "properties" : {
+    "einkommenssteuerVor2Jahren" : {
+      "type" : "Decimal"
+    },
+    "bruttoEinkommenLaufendesJahr" : {
+      "type" : "Decimal"
+    },
+    "einkommenssteuerLetztesJahr" : {
+      "type" : "Decimal"
+    },
+    "abschreibungenVor3Jahren" : {
+      "type" : "Decimal"
+    },
+    "bruttoEinkommenVor2Jahren" : {
+      "type" : "Decimal"
+    },
+    "abschreibungenLaufendesJahr" : {
+      "type" : "Decimal"
+    },
+    "firma" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.beschaeftigung.Firma",
+      "$ref" : "Firma.json"
+    },
+    "bruttoEinkommenLetztesJahr" : {
+      "type" : "Decimal"
+    },
+    "abschreibungenVor2Jahren" : {
+      "type" : "Decimal"
+    },
+    "nettoeinkommenJaehrlich" : {
+      "type" : "Decimal"
+    },
+    "bruttoEinkommenVor3Jahren" : {
+      "type" : "Decimal"
+    },
+    "einkommenssteuerVor3Jahren" : {
+      "type" : "Decimal"
+    },
+    "einkommenssteuerLaufendesJahr" : {
+      "type" : "Decimal"
+    },
+    "berufsbezeichnung" : {
+      "type" : "string"
+    },
+    "selbststaendigSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "abschreibungenLetztesJahr" : {
+      "type" : "Decimal"
+    }
+  }
+}

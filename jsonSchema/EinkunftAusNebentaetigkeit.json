@@ -1,0 +1,19 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "EinkunftAusNebentaetigkeit",
+  "type" : "object",
+  "javaType" : "generated.haushalt.einnahmen.EinkunftAusNebentaetigkeit",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "betragMonatlich" : {
+      "type" : "Decimal"
+    },
+    "beginnDerTaetigkeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    }
+  }
+}

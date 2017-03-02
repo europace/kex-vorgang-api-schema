@@ -1,0 +1,7 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Befristung",
+  "type" : "string",
+  "javaType" : "generated.antragsteller.beschaeftigung.Befristung",
+  "enum" : [ "BEFRISTET", "UNBEFRISTET" ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Darlehen",
+  "type" : "object",
+  "javaType" : "generated.haushalt.Darlehen",
+  "properties" : {
+    "restschuld" : {
+      "type" : "Decimal"
+    },
+    "zinsbindungBis" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "rateMonatlich" : {
+      "type" : "Decimal"
+    }
+  }
+}

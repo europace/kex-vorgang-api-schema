@@ -1,0 +1,17 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Bausparvertrag",
+  "type" : "object",
+  "javaType" : "generated.haushalt.vermoegen.Bausparvertrag",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "sparbeitragMonatlich" : {
+      "type" : "Decimal"
+    },
+    "angesparterBetrag" : {
+      "type" : "Decimal"
+    }
+  }
+}

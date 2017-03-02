@@ -1,0 +1,7 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Aufenthaltstitel",
+  "type" : "string",
+  "javaType" : "generated.antragsteller.herkunft.Aufenthaltstitel",
+  "enum" : [ "VISUM", "AUFENTHALTSERLAUBNIS", "NIEDERLASSUNGSERLAUBNIS", "ERLAUBNIS_ZUM_DAUERAUFENTHALT_EU" ]
+}

@@ -1,0 +1,7 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Titel",
+  "type" : "string",
+  "javaType" : "generated.antragsteller.personendaten.Titel",
+  "enum" : [ "DOKTOR", "PROFESSOR" ]
+}

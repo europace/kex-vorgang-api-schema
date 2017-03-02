@@ -1,0 +1,26 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Kreditkarte",
+  "type" : "object",
+  "javaType" : "generated.haushalt.verbindlichkeiten.Kreditkarte",
+  "extends" : {
+    "$ref" : "AbloesbareVerbindlichkeit.json"
+  },
+  "properties" : {
+    "beanspruchterBetrag" : {
+      "type" : "Decimal"
+    },
+    "zinssatz" : {
+      "type" : "Decimal"
+    },
+    "verfuegungsrahmen" : {
+      "type" : "Decimal"
+    },
+    "glaeubiger" : {
+      "type" : "string"
+    },
+    "rateMonatlich" : {
+      "type" : "Decimal"
+    }
+  }
+}

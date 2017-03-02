@@ -1,0 +1,48 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Ausgaben",
+  "type" : "object",
+  "javaType" : "generated.haushalt.ausgaben.Ausgaben",
+  "properties" : {
+    "privateKrankenversicherungen" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.ausgaben.PrivateKrankenversicherung",
+        "$ref" : "PrivateKrankenversicherung.json"
+      }
+    },
+    "unterhaltsverpflichtungen" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.ausgaben.Unterhaltsverpflichtung",
+        "$ref" : "Unterhaltsverpflichtung.json"
+      }
+    },
+    "sonstigeAusgaben" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.ausgaben.SonstigeAusgabe",
+        "$ref" : "SonstigeAusgabe.json"
+      }
+    },
+    "mietausgaben" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.ausgaben.Mietausgabe",
+        "$ref" : "Mietausgabe.json"
+      }
+    },
+    "sonstigeVersicherungsausgaben" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.ausgaben.SonstigeVersicherungsausgabe",
+        "$ref" : "SonstigeVersicherungsausgabe.json"
+      }
+    }
+  }
+}

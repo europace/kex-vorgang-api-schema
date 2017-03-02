@@ -1,0 +1,23 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "AbloesbareVerbindlichkeit",
+  "type" : "object",
+  "javaType" : "generated.haushalt.verbindlichkeiten.AbloesbareVerbindlichkeit",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "iban" : {
+      "type" : "string"
+    },
+    "abloesen" : {
+      "type" : "boolean"
+    },
+    "kreditinstitut" : {
+      "type" : "string"
+    },
+    "bic" : {
+      "type" : "string"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Verbindlichkeiten",
+  "type" : "object",
+  "javaType" : "generated.haushalt.verbindlichkeiten.Verbindlichkeiten",
+  "properties" : {
+    "kreditkarten" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.verbindlichkeiten.Kreditkarte",
+        "$ref" : "Kreditkarte.json"
+      }
+    },
+    "dispositionskredite" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.verbindlichkeiten.Dispositionskredit",
+        "$ref" : "Dispositionskredit.json"
+      }
+    },
+    "ratenkredite" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.verbindlichkeiten.Ratenkredit",
+        "$ref" : "Ratenkredit.json"
+      }
+    },
+    "leasings" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.verbindlichkeiten.Leasing",
+        "$ref" : "Leasing.json"
+      }
+    },
+    "sonstigeVerbindlichkeiten" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.verbindlichkeiten.SonstigeVerbindlichkeit",
+        "$ref" : "SonstigeVerbindlichkeit.json"
+      }
+    }
+  }
+}

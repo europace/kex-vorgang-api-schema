@@ -1,0 +1,7 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Kindergeldzuordnung",
+  "type" : "string",
+  "javaType" : "generated.haushalt.Kindergeldzuordnung",
+  "enum" : [ "ERSTES_ODER_ZWEITES_KIND", "DRITTES_KIND", "AB_VIERTEM_KIND" ]
+}

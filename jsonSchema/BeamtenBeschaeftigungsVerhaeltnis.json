@@ -1,0 +1,32 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "BeamtenBeschaeftigungsVerhaeltnis",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.beschaeftigung.BeamtenBeschaeftigungsVerhaeltnis",
+  "properties" : {
+    "inProbezeit" : {
+      "type" : "boolean"
+    },
+    "nettoeinkommenMonatlich" : {
+      "type" : "Decimal"
+    },
+    "verbeamtetSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "arbeitgeber" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.beschaeftigung.Firma",
+      "$ref" : "Firma.json"
+    },
+    "beschaeftigtSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "berufsbezeichnung" : {
+      "type" : "string"
+    }
+  }
+}

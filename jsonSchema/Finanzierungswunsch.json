@@ -1,0 +1,25 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Finanzierungswunsch",
+  "type" : "object",
+  "javaType" : "generated.finanzbedarf.Finanzierungswunsch",
+  "properties" : {
+    "laufzeitInMonaten" : {
+      "type" : "Integer"
+    },
+    "ratenzahlungstermin" : {
+      "type" : "string",
+      "javaType" : "generated.finanzbedarf.Ratenzahlungstermin",
+      "$ref" : "Ratenzahlungstermin.json"
+    },
+    "provisionswunschInProzent" : {
+      "type" : "Decimal"
+    },
+    "kreditbetrag" : {
+      "type" : "Decimal"
+    },
+    "rateMonatlich" : {
+      "type" : "Decimal"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Haushalt",
+  "type" : "object",
+  "javaType" : "generated.haushalt.Haushalt",
+  "properties" : {
+    "kontoverbindung" : {
+      "type" : "object",
+      "javaType" : "generated.haushalt.Kontoverbindung",
+      "$ref" : "Kontoverbindung.json"
+    },
+    "verbindlichkeiten" : {
+      "type" : "object",
+      "javaType" : "generated.haushalt.verbindlichkeiten.Verbindlichkeiten",
+      "$ref" : "Verbindlichkeiten.json"
+    },
+    "vermoegen" : {
+      "type" : "object",
+      "javaType" : "generated.haushalt.vermoegen.Vermoegen",
+      "$ref" : "Vermoegen.json"
+    },
+    "immobilien" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.Immobilie",
+        "$ref" : "Immobilie.json"
+      }
+    },
+    "ausgaben" : {
+      "type" : "object",
+      "javaType" : "generated.haushalt.ausgaben.Ausgaben",
+      "$ref" : "Ausgaben.json"
+    },
+    "einnahmen" : {
+      "type" : "object",
+      "javaType" : "generated.haushalt.einnahmen.Einnahmen",
+      "$ref" : "Einnahmen.json"
+    },
+    "kinder" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.Kind",
+        "$ref" : "Kind.json"
+      }
+    }
+  }
+}

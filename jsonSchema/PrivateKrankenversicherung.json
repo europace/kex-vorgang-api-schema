@@ -1,0 +1,14 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "PrivateKrankenversicherung",
+  "type" : "object",
+  "javaType" : "generated.haushalt.ausgaben.PrivateKrankenversicherung",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "betragMonatlich" : {
+      "type" : "Decimal"
+    }
+  }
+}

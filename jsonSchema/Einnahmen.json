@@ -1,0 +1,40 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Einnahmen",
+  "type" : "object",
+  "javaType" : "generated.haushalt.einnahmen.Einnahmen",
+  "properties" : {
+    "einkuenfteAusNebentaetigkeit" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.einnahmen.EinkunftAusNebentaetigkeit",
+        "$ref" : "EinkunftAusNebentaetigkeit.json"
+      }
+    },
+    "ehegattenunterhalt" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.einnahmen.Ehegattenunterhalt",
+        "$ref" : "Ehegattenunterhalt.json"
+      }
+    },
+    "sonstigeEinnahmen" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.einnahmen.SonstigeEinnahme",
+        "$ref" : "SonstigeEinnahme.json"
+      }
+    },
+    "unbefristeteZusatzrenten" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.einnahmen.UnbefristeteZusatzrente",
+        "$ref" : "UnbefristeteZusatzrente.json"
+      }
+    }
+  }
+}

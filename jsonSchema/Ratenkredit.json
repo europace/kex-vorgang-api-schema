@@ -1,0 +1,36 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Ratenkredit",
+  "type" : "object",
+  "javaType" : "generated.haushalt.verbindlichkeiten.Ratenkredit",
+  "extends" : {
+    "$ref" : "AbloesbareVerbindlichkeit.json"
+  },
+  "properties" : {
+    "urspruenglicherKreditbetrag" : {
+      "type" : "Decimal"
+    },
+    "restschuld" : {
+      "type" : "Decimal"
+    },
+    "schlussrate" : {
+      "type" : "Decimal"
+    },
+    "datumErsteZahlung" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "datumLetzteRate" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "glaeubiger" : {
+      "type" : "string"
+    },
+    "rateMonatlich" : {
+      "type" : "Decimal"
+    }
+  }
+}

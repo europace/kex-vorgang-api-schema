@@ -1,0 +1,17 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Lebensversicherung",
+  "type" : "object",
+  "javaType" : "generated.haushalt.vermoegen.Lebensversicherung",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "rueckkaufswert" : {
+      "type" : "Decimal"
+    },
+    "praemieMonatlich" : {
+      "type" : "Decimal"
+    }
+  }
+}

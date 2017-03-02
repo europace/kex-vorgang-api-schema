@@ -1,0 +1,52 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Personendaten",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.personendaten.Personendaten",
+  "properties" : {
+    "titel" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string",
+        "javaType" : "generated.antragsteller.personendaten.Titel",
+        "$ref" : "Titel.json"
+      }
+    },
+    "anrede" : {
+      "type" : "string",
+      "javaType" : "generated.antragsteller.personendaten.Anrede",
+      "$ref" : "Anrede.json"
+    },
+    "telefonGeschaeftlich" : {
+      "type" : "string"
+    },
+    "geburtsdatum" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "telefonPrivat" : {
+      "type" : "string"
+    },
+    "geburtsort" : {
+      "type" : "string"
+    },
+    "vorname" : {
+      "type" : "string"
+    },
+    "geburtsname" : {
+      "type" : "string"
+    },
+    "nachname" : {
+      "type" : "string"
+    },
+    "familienstand" : {
+      "type" : "string",
+      "javaType" : "generated.antragsteller.personendaten.Familienstand",
+      "$ref" : "Familienstand.json"
+    },
+    "email" : {
+      "type" : "string"
+    }
+  }
+}

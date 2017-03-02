@@ -1,0 +1,32 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Wohnsituation",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.wohnsituation.Wohnsituation",
+  "properties" : {
+    "anschrift" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.wohnsituation.Wohnanschrift",
+      "$ref" : "Wohnanschrift.json"
+    },
+    "wohnart" : {
+      "type" : "string",
+      "javaType" : "generated.antragsteller.wohnsituation.Wohnart",
+      "$ref" : "Wohnart.json"
+    },
+    "gemeinsamerHaushalt" : {
+      "type" : "boolean"
+    },
+    "anzahlPersonenImHaushalt" : {
+      "type" : "Integer"
+    },
+    "anzahlPkw" : {
+      "type" : "Integer"
+    },
+    "voranschrift" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.wohnsituation.Wohnanschrift",
+      "$ref" : "Wohnanschrift.json"
+    }
+  }
+}

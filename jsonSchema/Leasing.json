@@ -1,0 +1,25 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Leasing",
+  "type" : "object",
+  "javaType" : "generated.haushalt.verbindlichkeiten.Leasing",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "schlussrate" : {
+      "type" : "Decimal"
+    },
+    "datumLetzteRate" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "glaeubiger" : {
+      "type" : "string"
+    },
+    "rateMonatlich" : {
+      "type" : "Decimal"
+    }
+  }
+}

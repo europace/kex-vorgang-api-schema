@@ -1,0 +1,28 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Finanzbedarf",
+  "type" : "object",
+  "javaType" : "generated.finanzbedarf.Finanzbedarf",
+  "properties" : {
+    "fahrzeugkauf" : {
+      "type" : "object",
+      "javaType" : "generated.finanzbedarf.Fahrzeugkauf",
+      "$ref" : "Fahrzeugkauf.json"
+    },
+    "finanzierungszweck" : {
+      "type" : "string",
+      "javaType" : "generated.finanzbedarf.Finanzierungszweck",
+      "$ref" : "Finanzierungszweck.json"
+    },
+    "finanzierungswunsch" : {
+      "type" : "object",
+      "javaType" : "generated.finanzbedarf.Finanzierungswunsch",
+      "$ref" : "Finanzierungswunsch.json"
+    },
+    "ratenschutz" : {
+      "type" : "object",
+      "javaType" : "generated.finanzbedarf.Ratenschutz",
+      "$ref" : "Ratenschutz.json"
+    }
+  }
+}

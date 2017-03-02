@@ -1,0 +1,16 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Wohnanschrift",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.wohnsituation.Wohnanschrift",
+  "extends" : {
+    "$ref" : "Anschrift.json"
+  },
+  "properties" : {
+    "wohnhaftSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    }
+  }
+}

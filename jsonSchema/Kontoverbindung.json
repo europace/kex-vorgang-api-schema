@@ -1,0 +1,20 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Kontoverbindung",
+  "type" : "object",
+  "javaType" : "generated.haushalt.Kontoverbindung",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "iban" : {
+      "type" : "string"
+    },
+    "kreditinstitut" : {
+      "type" : "string"
+    },
+    "bic" : {
+      "type" : "string"
+    }
+  }
+}

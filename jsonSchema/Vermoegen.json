@@ -1,0 +1,24 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Vermoegen",
+  "type" : "object",
+  "javaType" : "generated.haushalt.vermoegen.Vermoegen",
+  "properties" : {
+    "lebensversicherungen" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.vermoegen.Lebensversicherung",
+        "$ref" : "Lebensversicherung.json"
+      }
+    },
+    "bausparvertraege" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.vermoegen.Bausparvertrag",
+        "$ref" : "Bausparvertrag.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Beamter",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.beschaeftigung.Beamter",
+  "properties" : {
+    "beschaeftigungsverhaeltnis" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.beschaeftigung.BeamtenBeschaeftigungsVerhaeltnis",
+      "$ref" : "BeamtenBeschaeftigungsVerhaeltnis.json"
+    },
+    "vorherigeresBeschaeftigungsverhaeltnis" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.beschaeftigung.VorherigesBeschaeftigungsverhaeltnis",
+      "$ref" : "VorherigesBeschaeftigungsverhaeltnis.json"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Anschrift",
+  "type" : "object",
+  "javaType" : "generated.Anschrift",
+  "properties" : {
+    "strasse" : {
+      "type" : "string"
+    },
+    "hausnummer" : {
+      "type" : "string"
+    },
+    "plz" : {
+      "type" : "string"
+    },
+    "ort" : {
+      "type" : "string"
+    },
+    "land" : {
+      "type" : "string",
+      "javaType" : "generated.antragsteller.Country",
+      "$ref" : "Country.json"
+    }
+  }
+}

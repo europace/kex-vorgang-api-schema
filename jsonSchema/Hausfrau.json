@@ -1,0 +1,11 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Hausfrau",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.beschaeftigung.Hausfrau",
+  "properties" : {
+    "sonstigesEinkommenMonatlich" : {
+      "type" : "Decimal"
+    }
+  }
+}

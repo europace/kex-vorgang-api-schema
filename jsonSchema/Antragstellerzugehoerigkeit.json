@@ -1,0 +1,7 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Antragstellerzugehoerigkeit",
+  "type" : "string",
+  "javaType" : "generated.haushalt.Antragstellerzugehoerigkeit",
+  "enum" : [ "ANTRAGSTELLER_1", "ANTRAGSTELLER_2", "BEIDE" ]
+}

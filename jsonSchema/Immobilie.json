@@ -1,0 +1,50 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Immobilie",
+  "type" : "object",
+  "javaType" : "generated.haushalt.Immobilie",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "mieteinnahmenWarmMonatlich" : {
+      "type" : "Decimal"
+    },
+    "vermieteteWohnflaeche" : {
+      "type" : "Integer"
+    },
+    "nebenkostenMonatlich" : {
+      "type" : "Decimal"
+    },
+    "wert" : {
+      "type" : "Decimal"
+    },
+    "darlehen" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "generated.haushalt.Darlehen",
+        "$ref" : "Darlehen.json"
+      }
+    },
+    "nutzungsart" : {
+      "type" : "string",
+      "javaType" : "generated.haushalt.Nutzungsart",
+      "$ref" : "Nutzungsart.json"
+    },
+    "mieteinnahmenKaltMonatlich" : {
+      "type" : "Decimal"
+    },
+    "immobilienart" : {
+      "type" : "string",
+      "javaType" : "generated.haushalt.Immobilienart",
+      "$ref" : "Immobilienart.json"
+    },
+    "bezeichnung" : {
+      "type" : "string"
+    },
+    "wohnflaeche" : {
+      "type" : "Integer"
+    }
+  }
+}

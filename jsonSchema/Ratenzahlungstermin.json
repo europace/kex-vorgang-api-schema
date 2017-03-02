@@ -1,0 +1,7 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Ratenzahlungstermin",
+  "type" : "string",
+  "javaType" : "generated.finanzbedarf.Ratenzahlungstermin",
+  "enum" : [ "MONATSENDE", "MONATSMITTE" ]
+}

@@ -1,0 +1,7 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Nutzungsart",
+  "type" : "string",
+  "javaType" : "generated.haushalt.Nutzungsart",
+  "enum" : [ "EIGENGENUTZT", "VERMIETET", "EIGENGENUTZT_UND_VERMIETET" ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Haushaltsposition",
+  "type" : "object",
+  "javaType" : "generated.haushalt.Haushaltsposition",
+  "properties" : {
+    "gehoertZuAntragsteller" : {
+      "type" : "string",
+      "javaType" : "generated.haushalt.Antragstellerzugehoerigkeit",
+      "$ref" : "Antragstellerzugehoerigkeit.json"
+    },
+    "id" : {
+      "type" : "string"
+    }
+  }
+}

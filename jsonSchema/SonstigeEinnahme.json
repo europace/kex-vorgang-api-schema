@@ -1,0 +1,14 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "SonstigeEinnahme",
+  "type" : "object",
+  "javaType" : "generated.haushalt.einnahmen.SonstigeEinnahme",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "betragMonatlich" : {
+      "type" : "Decimal"
+    }
+  }
+}

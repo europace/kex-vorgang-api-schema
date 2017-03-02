@@ -1,0 +1,23 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "VorherigesBeschaeftigungsverhaeltnis",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.beschaeftigung.VorherigesBeschaeftigungsverhaeltnis",
+  "properties" : {
+    "arbeitgeber" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.beschaeftigung.Firma",
+      "$ref" : "Firma.json"
+    },
+    "beschaeftigtBis" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "beschaeftigtSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    }
+  }
+}

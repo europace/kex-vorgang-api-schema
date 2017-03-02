@@ -1,0 +1,37 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Beschaeftigungsverhaeltnis",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.beschaeftigung.Beschaeftigungsverhaeltnis",
+  "properties" : {
+    "inProbezeit" : {
+      "type" : "boolean"
+    },
+    "nettoeinkommenMonatlich" : {
+      "type" : "Decimal"
+    },
+    "befristung" : {
+      "type" : "string",
+      "javaType" : "generated.antragsteller.beschaeftigung.Befristung",
+      "$ref" : "Befristung.json"
+    },
+    "arbeitgeber" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.beschaeftigung.Firma",
+      "$ref" : "Firma.json"
+    },
+    "befristetBis" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "beschaeftigtSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "berufsbezeichnung" : {
+      "type" : "string"
+    }
+  }
+}

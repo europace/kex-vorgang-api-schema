@@ -1,0 +1,14 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Ehegattenunterhalt",
+  "type" : "object",
+  "javaType" : "generated.haushalt.einnahmen.Ehegattenunterhalt",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "betragMonatlich" : {
+      "type" : "Decimal"
+    }
+  }
+}

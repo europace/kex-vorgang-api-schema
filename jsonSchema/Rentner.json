@@ -1,0 +1,21 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Rentner",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.beschaeftigung.Rentner",
+  "properties" : {
+    "staatlicheRenteMonatlich" : {
+      "type" : "Decimal"
+    },
+    "rentenversicherung" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.beschaeftigung.Rentenversicherung",
+      "$ref" : "Rentenversicherung.json"
+    },
+    "rentnerSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    }
+  }
+}

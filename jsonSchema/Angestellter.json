@@ -1,0 +1,18 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Angestellter",
+  "type" : "object",
+  "javaType" : "generated.antragsteller.beschaeftigung.Angestellter",
+  "properties" : {
+    "beschaeftigungsverhaeltnis" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.beschaeftigung.Beschaeftigungsverhaeltnis",
+      "$ref" : "Beschaeftigungsverhaeltnis.json"
+    },
+    "vorherigeresBeschaeftigungsverhaeltnis" : {
+      "type" : "object",
+      "javaType" : "generated.antragsteller.beschaeftigung.VorherigesBeschaeftigungsverhaeltnis",
+      "$ref" : "VorherigesBeschaeftigungsverhaeltnis.json"
+    }
+  }
+}

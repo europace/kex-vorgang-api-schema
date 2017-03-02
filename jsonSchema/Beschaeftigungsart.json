@@ -1,0 +1,7 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Beschaeftigungsart",
+  "type" : "string",
+  "javaType" : "generated.antragsteller.beschaeftigung.Beschaeftigungsart",
+  "enum" : [ "ANGESTELLTER", "ARBEITER", "ARBEITSLOSER", "BEAMTER", "FREIBERUFLER", "HAUSFRAU", "RENTNER", "SELBSTSTAENDIGER" ]
+}
