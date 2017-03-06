@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "AbloesbareVerbindlichkeit",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.AbloesbareVerbindlichkeit",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.AbloesbareVerbindlichkeit",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

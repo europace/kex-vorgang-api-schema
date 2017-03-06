@@ -2,46 +2,46 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Haushalt",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.Haushalt",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Haushalt",
   "properties" : {
     "kontoverbindung" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.haushalt.Kontoverbindung",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Kontoverbindung",
       "$ref" : "Kontoverbindung.json"
     },
     "verbindlichkeiten" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Verbindlichkeiten",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Verbindlichkeiten",
       "$ref" : "Verbindlichkeiten.json"
     },
     "vermoegen" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.haushalt.vermoegen.Vermoegen",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Vermoegen",
       "$ref" : "Vermoegen.json"
     },
     "immobilien" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.Immobilie",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Immobilie",
         "$ref" : "Immobilie.json"
       }
     },
     "ausgaben" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.Ausgaben",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.Ausgaben",
       "$ref" : "Ausgaben.json"
     },
     "einnahmen" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.Einnahmen",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.Einnahmen",
       "$ref" : "Einnahmen.json"
     },
     "kinder" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.Kind",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Kind",
         "$ref" : "Kind.json"
       }
     }

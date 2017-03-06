@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Immobilie",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.Immobilie",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Immobilie",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },
@@ -23,13 +23,13 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.Darlehen",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Darlehen",
         "$ref" : "Darlehen.json"
       }
     },
     "nutzungsart" : {
       "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.import.haushalt.Nutzungsart",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Nutzungsart",
       "$ref" : "Nutzungsart.json"
     },
     "mieteinnahmenKaltMonatlich" : {
@@ -37,7 +37,7 @@
     },
     "immobilienart" : {
       "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.import.haushalt.Immobilienart",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Immobilienart",
       "$ref" : "Immobilienart.json"
     },
     "bezeichnung" : {

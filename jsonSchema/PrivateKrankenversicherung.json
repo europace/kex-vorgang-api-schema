@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "PrivateKrankenversicherung",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.PrivateKrankenversicherung",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.PrivateKrankenversicherung",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

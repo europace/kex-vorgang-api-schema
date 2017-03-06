@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Kontoverbindung",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.Kontoverbindung",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Kontoverbindung",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

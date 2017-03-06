@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Mietausgabe",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.Mietausgabe",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.Mietausgabe",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Country",
   "type" : "string",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.Country",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Country",
   "enum" : [ "EG", "ET", "AF", "AL", "DZ", "AO", "AR", "AM", "AZ", "AU", "BH", "BD", "BE", "BJ", "BO", "BA", "BW", "BR", "BF", "BG", "BI", "CL", "CN", "CR", "CI", "DE", "DK", "DO", "EC", "SV", "ER", "EE", "FI", "FR", "GA", "GM", "GE", "GH", "GR", "GT", "GN", "GW", "HT", "HN", "HK", "IN", "ID", "IQ", "IR", "IE", "IS", "IL", "IT", "JM", "JP", "YE", "JO", "KH", "CM", "CA", "KZ", "QA", "KE", "KG", "CO", "CD", "CG", "CS", "HR", "CU", "KW", "LA", "LS", "LV", "LB", "LY", "LI", "LR", "LT", "LU", "MG", "MW", "MY", "ML", "MT", "MA", "MR", "MU", "MK", "MX", "MD", "MN", "MZ", "NA", "NP", "NZ", "NI", "NL", "NE", "NG", "KP", "NO", "OM", "AT", "PK", "PS", "PA", "PG", "PY", "PE", "PH", "PL", "PT", "PR", "RW", "RO", "RU", "ZM", "SA", "CH", "SE", "SN", "RS", "SL", "SK", "SI", "ES", "ZW", "SG", "SO", "LK", "SD", "SY", "KR", "ZA", "TJ", "TW", "TZ", "TH", "TG", "TT", "TD", "CZ", "TN", "TM", "TR", "UG", "UA", "HU", "UY", "UZ", "VE", "AE", "GB", "US", "VN", "BY", "CF", "CY", "SONSTIGE" ]
 }

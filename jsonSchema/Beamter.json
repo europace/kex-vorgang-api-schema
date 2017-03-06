@@ -2,16 +2,16 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Beamter",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Beamter",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beamter",
   "properties" : {
     "beschaeftigungsverhaeltnis" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.BeamtenBeschaeftigungsVerhaeltnis",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.BeamtenBeschaeftigungsVerhaeltnis",
       "$ref" : "BeamtenBeschaeftigungsVerhaeltnis.json"
     },
     "vorherigeresBeschaeftigungsverhaeltnis" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.VorherigesBeschaeftigungsverhaeltnis",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.VorherigesBeschaeftigungsverhaeltnis",
       "$ref" : "VorherigesBeschaeftigungsverhaeltnis.json"
     }
   }

@@ -2,16 +2,16 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Wohnsituation",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.wohnsituation.Wohnsituation",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.wohnsituation.Wohnsituation",
   "properties" : {
     "anschrift" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.wohnsituation.Wohnanschrift",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.wohnsituation.Wohnanschrift",
       "$ref" : "Wohnanschrift.json"
     },
     "wohnart" : {
       "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.wohnsituation.Wohnart",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.wohnsituation.Wohnart",
       "$ref" : "Wohnart.json"
     },
     "gemeinsamerHaushalt" : {
@@ -25,7 +25,7 @@
     },
     "voranschrift" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.wohnsituation.Wohnanschrift",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.wohnsituation.Wohnanschrift",
       "$ref" : "Wohnanschrift.json"
     }
   }

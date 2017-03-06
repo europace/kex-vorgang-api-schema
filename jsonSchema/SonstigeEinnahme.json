@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "SonstigeEinnahme",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.SonstigeEinnahme",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.SonstigeEinnahme",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

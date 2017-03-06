@@ -2,13 +2,13 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Ausgaben",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.Ausgaben",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.Ausgaben",
   "properties" : {
     "privateKrankenversicherungen" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.PrivateKrankenversicherung",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.PrivateKrankenversicherung",
         "$ref" : "PrivateKrankenversicherung.json"
       }
     },
@@ -16,7 +16,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.Unterhaltsverpflichtung",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.Unterhaltsverpflichtung",
         "$ref" : "Unterhaltsverpflichtung.json"
       }
     },
@@ -24,7 +24,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.SonstigeAusgabe",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.SonstigeAusgabe",
         "$ref" : "SonstigeAusgabe.json"
       }
     },
@@ -32,7 +32,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.Mietausgabe",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.Mietausgabe",
         "$ref" : "Mietausgabe.json"
       }
     },
@@ -40,7 +40,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.SonstigeVersicherungsausgabe",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.SonstigeVersicherungsausgabe",
         "$ref" : "SonstigeVersicherungsausgabe.json"
       }
     }

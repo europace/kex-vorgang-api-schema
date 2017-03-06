@@ -2,51 +2,51 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Beschaeftigung",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Beschaeftigung",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beschaeftigung",
   "properties" : {
     "selbststaendiger" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Selbststaendiger",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Selbststaendiger",
       "$ref" : "Selbststaendiger.json"
     },
     "beamter" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Beamter",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beamter",
       "$ref" : "Beamter.json"
     },
     "arbeiter" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Arbeiter",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Arbeiter",
       "$ref" : "Arbeiter.json"
     },
     "arbeitsloser" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Arbeitsloser",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Arbeitsloser",
       "$ref" : "Arbeitsloser.json"
     },
     "freiberufler" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Freiberufler",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Freiberufler",
       "$ref" : "Freiberufler.json"
     },
     "hausfrau" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Hausfrau",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Hausfrau",
       "$ref" : "Hausfrau.json"
     },
     "rentner" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Rentner",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Rentner",
       "$ref" : "Rentner.json"
     },
     "beschaeftigungsart" : {
       "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Beschaeftigungsart",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beschaeftigungsart",
       "$ref" : "Beschaeftigungsart.json"
     },
     "angestellter" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Angestellter",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Angestellter",
       "$ref" : "Angestellter.json"
     }
   }

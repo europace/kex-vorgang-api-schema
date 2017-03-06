@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Nutzungsart",
   "type" : "string",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.Nutzungsart",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Nutzungsart",
   "enum" : [ "EIGENGENUTZT", "VERMIETET", "EIGENGENUTZT_UND_VERMIETET" ]
 }

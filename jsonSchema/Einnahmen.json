@@ -2,13 +2,13 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Einnahmen",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.Einnahmen",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.Einnahmen",
   "properties" : {
     "einkuenfteAusNebentaetigkeit" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.EinkunftAusNebentaetigkeit",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.EinkunftAusNebentaetigkeit",
         "$ref" : "EinkunftAusNebentaetigkeit.json"
       }
     },
@@ -16,7 +16,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.Ehegattenunterhalt",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.Ehegattenunterhalt",
         "$ref" : "Ehegattenunterhalt.json"
       }
     },
@@ -24,7 +24,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.SonstigeEinnahme",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.SonstigeEinnahme",
         "$ref" : "SonstigeEinnahme.json"
       }
     },
@@ -32,7 +32,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.UnbefristeteZusatzrente",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.UnbefristeteZusatzrente",
         "$ref" : "UnbefristeteZusatzrente.json"
       }
     }

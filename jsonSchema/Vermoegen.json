@@ -2,13 +2,13 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Vermoegen",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.vermoegen.Vermoegen",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Vermoegen",
   "properties" : {
     "lebensversicherungen" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.vermoegen.Lebensversicherung",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Lebensversicherung",
         "$ref" : "Lebensversicherung.json"
       }
     },
@@ -16,7 +16,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.import.haushalt.vermoegen.Bausparvertrag",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Bausparvertrag",
         "$ref" : "Bausparvertrag.json"
       }
     }

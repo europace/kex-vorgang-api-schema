@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Beschaeftigungsart",
   "type" : "string",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Beschaeftigungsart",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beschaeftigungsart",
   "enum" : [ "ANGESTELLTER", "ARBEITER", "ARBEITSLOSER", "BEAMTER", "FREIBERUFLER", "HAUSFRAU", "RENTNER", "SELBSTSTAENDIGER" ]
 }

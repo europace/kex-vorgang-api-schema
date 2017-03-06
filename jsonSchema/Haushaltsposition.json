@@ -2,11 +2,11 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Haushaltsposition",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.Haushaltsposition",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Haushaltsposition",
   "properties" : {
     "gehoertZuAntragsteller" : {
       "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.import.haushalt.Antragstellerzugehoerigkeit",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Antragstellerzugehoerigkeit",
       "$ref" : "Antragstellerzugehoerigkeit.json"
     },
     "id" : {

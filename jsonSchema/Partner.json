@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Partner",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.Partner",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",
   "properties" : {
     "partnerId" : {
       "type" : "string"

@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Aufenthaltstitel",
   "type" : "string",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.herkunft.Aufenthaltstitel",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.herkunft.Aufenthaltstitel",
   "enum" : [ "VISUM", "AUFENTHALTSERLAUBNIS", "NIEDERLASSUNGSERLAUBNIS", "ERLAUBNIS_ZUM_DAUERAUFENTHALT_EU" ]
 }

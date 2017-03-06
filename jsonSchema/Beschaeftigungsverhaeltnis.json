@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Beschaeftigungsverhaeltnis",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Beschaeftigungsverhaeltnis",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beschaeftigungsverhaeltnis",
   "properties" : {
     "inProbezeit" : {
       "type" : "boolean"
@@ -12,12 +12,12 @@
     },
     "befristung" : {
       "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Befristung",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Befristung",
       "$ref" : "Befristung.json"
     },
     "arbeitgeber" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Firma",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Firma",
       "$ref" : "Firma.json"
     },
     "befristetBis" : {

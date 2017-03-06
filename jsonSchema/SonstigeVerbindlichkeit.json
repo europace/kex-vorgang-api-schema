@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "SonstigeVerbindlichkeit",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.SonstigeVerbindlichkeit",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.SonstigeVerbindlichkeit",
   "extends" : {
     "$ref" : "AbloesbareVerbindlichkeit.json"
   },

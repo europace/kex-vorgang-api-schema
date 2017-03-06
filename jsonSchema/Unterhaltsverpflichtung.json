@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Unterhaltsverpflichtung",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.Unterhaltsverpflichtung",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.Unterhaltsverpflichtung",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

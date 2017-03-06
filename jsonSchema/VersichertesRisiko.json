@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "VersichertesRisiko",
   "type" : "string",
-  "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.VersichertesRisiko",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.VersichertesRisiko",
   "enum" : [ "ARBEITSLOSIGKEIT", "ARBEITSUNFAEHIGKEIT", "LEBEN" ]
 }

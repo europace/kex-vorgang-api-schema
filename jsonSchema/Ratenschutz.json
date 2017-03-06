@@ -2,13 +2,13 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Ratenschutz",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Ratenschutz",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Ratenschutz",
   "properties" : {
     "versicherteRisikenAntragsteller2" : {
       "type" : "array",
       "items" : {
         "type" : "string",
-        "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.VersichertesRisiko",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.VersichertesRisiko",
         "$ref" : "VersichertesRisiko.json"
       }
     },
@@ -16,7 +16,7 @@
       "type" : "array",
       "items" : {
         "type" : "string",
-        "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.VersichertesRisiko",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.VersichertesRisiko",
         "$ref" : "VersichertesRisiko.json"
       }
     }

@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Leasing",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Leasing",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Leasing",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

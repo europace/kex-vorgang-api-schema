@@ -2,16 +2,16 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Firma",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Firma",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Firma",
   "properties" : {
     "anschrift" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.Anschrift",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.Anschrift",
       "$ref" : "Anschrift.json"
     },
     "branche" : {
       "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Branche",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Branche",
       "$ref" : "Branche.json"
     },
     "name" : {

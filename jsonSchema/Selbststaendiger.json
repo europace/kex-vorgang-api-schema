@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Selbststaendiger",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Selbststaendiger",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Selbststaendiger",
   "properties" : {
     "einkommenssteuerVor2Jahren" : {
       "type" : "Decimal"
@@ -24,7 +24,7 @@
     },
     "firma" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Firma",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Firma",
       "$ref" : "Firma.json"
     },
     "bruttoEinkommenLetztesJahr" : {

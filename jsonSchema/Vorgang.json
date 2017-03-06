@@ -2,11 +2,11 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Vorgang",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.Vorgang",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.Vorgang",
   "properties" : {
     "tippgeber" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.Partner",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",
       "$ref" : "Partner.json"
     },
     "eigeneVorgangsnummer" : {
@@ -14,32 +14,32 @@
     },
     "kundenbetreuer" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.Partner",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",
       "$ref" : "Partner.json"
     },
     "antragsteller2" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.Antragsteller",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Antragsteller",
       "$ref" : "Antragsteller.json"
     },
     "antragsteller1" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.Antragsteller",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Antragsteller",
       "$ref" : "Antragsteller.json"
     },
     "finanzbedarf" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Finanzbedarf",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Finanzbedarf",
       "$ref" : "Finanzbedarf.json"
     },
     "bearbeiter" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.Partner",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",
       "$ref" : "Partner.json"
     },
     "haushalt" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.haushalt.Haushalt",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Haushalt",
       "$ref" : "Haushalt.json"
     },
     "leadquelle" : {

@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Anrede",
   "type" : "string",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.personendaten.Anrede",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.personendaten.Anrede",
   "enum" : [ "FRAU", "HERR" ]
 }

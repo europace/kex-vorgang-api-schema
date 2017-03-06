@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Ratenzahlungstermin",
   "type" : "string",
-  "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Ratenzahlungstermin",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Ratenzahlungstermin",
   "enum" : [ "MONATSENDE", "MONATSMITTE" ]
 }

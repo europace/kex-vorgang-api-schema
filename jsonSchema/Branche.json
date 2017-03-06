@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Branche",
   "type" : "string",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Branche",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Branche",
   "enum" : [ "BAUGEWERBE", "DIENSTLEISTUNGEN", "ENERGIE_WASSERVERSORGUNG_BERGBAU", "GEBIETSKOERPERSCHAFTEN", "HANDEL", "HOTEL_GASTRONOMIE", "KREDITINSTITUTE_VERSICHERUNGEN", "LANDWIRTSCHAFT_FORSTWIRTSCHAFT_FISCHEREI", "OEFFENTLICHER_DIENST", "GEMEINNUETZIGE_ORGANISATION", "PRIVATE_HAUSHALTE", "SOZIALVERSICHERUNGEN", "VERARBEITENDES_GEWERBE", "VERKEHR_TELEKOMMUNIKATION", "SONSTIGE" ]
 }

@@ -2,14 +2,14 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Rentner",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Rentner",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Rentner",
   "properties" : {
     "staatlicheRenteMonatlich" : {
       "type" : "Decimal"
     },
     "rentenversicherung" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Rentenversicherung",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Rentenversicherung",
       "$ref" : "Rentenversicherung.json"
     },
     "rentnerSeit" : {
