@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Dispositionskredit",
   "type" : "object",
-  "javaType" : "generated.haushalt.verbindlichkeiten.Dispositionskredit",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Dispositionskredit",
   "extends" : {
     "$ref" : "AbloesbareVerbindlichkeit.json"
   },

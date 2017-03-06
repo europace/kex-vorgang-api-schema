@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Antragstellerzugehoerigkeit",
   "type" : "string",
-  "javaType" : "generated.haushalt.Antragstellerzugehoerigkeit",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.Antragstellerzugehoerigkeit",
   "enum" : [ "ANTRAGSTELLER_1", "ANTRAGSTELLER_2", "BEIDE" ]
 }

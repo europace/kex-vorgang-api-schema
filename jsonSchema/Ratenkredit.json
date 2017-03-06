@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Ratenkredit",
   "type" : "object",
-  "javaType" : "generated.haushalt.verbindlichkeiten.Ratenkredit",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Ratenkredit",
   "extends" : {
     "$ref" : "AbloesbareVerbindlichkeit.json"
   },

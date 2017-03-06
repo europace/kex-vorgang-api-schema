@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Ehegattenunterhalt",
   "type" : "object",
-  "javaType" : "generated.haushalt.einnahmen.Ehegattenunterhalt",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.Ehegattenunterhalt",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

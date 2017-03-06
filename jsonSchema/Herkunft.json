@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Herkunft",
   "type" : "object",
-  "javaType" : "generated.antragsteller.herkunft.Herkunft",
+  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.herkunft.Herkunft",
   "properties" : {
     "arbeitserlaubnisVorhanden" : {
       "type" : "boolean"
@@ -24,12 +24,12 @@
     },
     "staatsangehoerigkeit" : {
       "type" : "string",
-      "javaType" : "generated.antragsteller.Country",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.Country",
       "$ref" : "Country.json"
     },
     "aufenthaltstitel" : {
       "type" : "string",
-      "javaType" : "generated.antragsteller.herkunft.Aufenthaltstitel",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.herkunft.Aufenthaltstitel",
       "$ref" : "Aufenthaltstitel.json"
     }
   }

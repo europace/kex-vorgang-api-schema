@@ -2,46 +2,46 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Haushalt",
   "type" : "object",
-  "javaType" : "generated.haushalt.Haushalt",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.Haushalt",
   "properties" : {
     "kontoverbindung" : {
       "type" : "object",
-      "javaType" : "generated.haushalt.Kontoverbindung",
+      "javaType" : "de.europace.kreditsmart.api.import.haushalt.Kontoverbindung",
       "$ref" : "Kontoverbindung.json"
     },
     "verbindlichkeiten" : {
       "type" : "object",
-      "javaType" : "generated.haushalt.verbindlichkeiten.Verbindlichkeiten",
+      "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Verbindlichkeiten",
       "$ref" : "Verbindlichkeiten.json"
     },
     "vermoegen" : {
       "type" : "object",
-      "javaType" : "generated.haushalt.vermoegen.Vermoegen",
+      "javaType" : "de.europace.kreditsmart.api.import.haushalt.vermoegen.Vermoegen",
       "$ref" : "Vermoegen.json"
     },
     "immobilien" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "generated.haushalt.Immobilie",
+        "javaType" : "de.europace.kreditsmart.api.import.haushalt.Immobilie",
         "$ref" : "Immobilie.json"
       }
     },
     "ausgaben" : {
       "type" : "object",
-      "javaType" : "generated.haushalt.ausgaben.Ausgaben",
+      "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.Ausgaben",
       "$ref" : "Ausgaben.json"
     },
     "einnahmen" : {
       "type" : "object",
-      "javaType" : "generated.haushalt.einnahmen.Einnahmen",
+      "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.Einnahmen",
       "$ref" : "Einnahmen.json"
     },
     "kinder" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "generated.haushalt.Kind",
+        "javaType" : "de.europace.kreditsmart.api.import.haushalt.Kind",
         "$ref" : "Kind.json"
       }
     }

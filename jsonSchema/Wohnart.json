@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Wohnart",
   "type" : "string",
-  "javaType" : "generated.antragsteller.wohnsituation.Wohnart",
+  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.wohnsituation.Wohnart",
   "enum" : [ "ZUR_MIETE", "ZUR_UNTERMIETE", "IM_EIGENEN_HAUS", "BEI_DEN_ELTERN" ]
 }

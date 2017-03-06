@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Fahrzeugkauf",
   "type" : "object",
-  "javaType" : "generated.finanzbedarf.Fahrzeugkauf",
+  "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Fahrzeugkauf",
   "properties" : {
     "modell" : {
       "type" : "string"
@@ -32,7 +32,7 @@
     },
     "anbieter" : {
       "type" : "string",
-      "javaType" : "generated.finanzbedarf.Fahrzeuganbieter",
+      "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Fahrzeuganbieter",
       "$ref" : "Fahrzeuganbieter.json"
     }
   }

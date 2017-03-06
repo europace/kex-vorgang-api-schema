@@ -2,11 +2,11 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Rentenversicherung",
   "type" : "object",
-  "javaType" : "generated.antragsteller.beschaeftigung.Rentenversicherung",
+  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Rentenversicherung",
   "properties" : {
     "anschrift" : {
       "type" : "object",
-      "javaType" : "generated.Anschrift",
+      "javaType" : "de.europace.kreditsmart.api.import.Anschrift",
       "$ref" : "Anschrift.json"
     },
     "name" : {

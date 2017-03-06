@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Kreditkarte",
   "type" : "object",
-  "javaType" : "generated.haushalt.verbindlichkeiten.Kreditkarte",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Kreditkarte",
   "extends" : {
     "$ref" : "AbloesbareVerbindlichkeit.json"
   },

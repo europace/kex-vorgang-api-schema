@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Hausfrau",
   "type" : "object",
-  "javaType" : "generated.antragsteller.beschaeftigung.Hausfrau",
+  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Hausfrau",
   "properties" : {
     "sonstigesEinkommenMonatlich" : {
       "type" : "Decimal"

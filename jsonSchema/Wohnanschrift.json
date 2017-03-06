@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Wohnanschrift",
   "type" : "object",
-  "javaType" : "generated.antragsteller.wohnsituation.Wohnanschrift",
+  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.wohnsituation.Wohnanschrift",
   "extends" : {
     "$ref" : "Anschrift.json"
   },

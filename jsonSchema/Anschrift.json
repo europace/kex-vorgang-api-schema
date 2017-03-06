@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Anschrift",
   "type" : "object",
-  "javaType" : "generated.Anschrift",
+  "javaType" : "de.europace.kreditsmart.api.import.Anschrift",
   "properties" : {
     "strasse" : {
       "type" : "string"
@@ -18,7 +18,7 @@
     },
     "land" : {
       "type" : "string",
-      "javaType" : "generated.antragsteller.Country",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.Country",
       "$ref" : "Country.json"
     }
   }

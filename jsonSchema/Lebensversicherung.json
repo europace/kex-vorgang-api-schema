@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Lebensversicherung",
   "type" : "object",
-  "javaType" : "generated.haushalt.vermoegen.Lebensversicherung",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.vermoegen.Lebensversicherung",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

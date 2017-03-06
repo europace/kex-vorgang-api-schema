@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "EinkunftAusNebentaetigkeit",
   "type" : "object",
-  "javaType" : "generated.haushalt.einnahmen.EinkunftAusNebentaetigkeit",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.EinkunftAusNebentaetigkeit",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

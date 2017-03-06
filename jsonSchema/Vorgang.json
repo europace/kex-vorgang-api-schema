@@ -2,11 +2,11 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Vorgang",
   "type" : "object",
-  "javaType" : "generated.Vorgang",
+  "javaType" : "de.europace.kreditsmart.api.import.Vorgang",
   "properties" : {
     "tippgeber" : {
       "type" : "object",
-      "javaType" : "generated.Partner",
+      "javaType" : "de.europace.kreditsmart.api.import.Partner",
       "$ref" : "Partner.json"
     },
     "eigeneVorgangsnummer" : {
@@ -14,32 +14,32 @@
     },
     "kundenbetreuer" : {
       "type" : "object",
-      "javaType" : "generated.Partner",
+      "javaType" : "de.europace.kreditsmart.api.import.Partner",
       "$ref" : "Partner.json"
     },
     "antragsteller2" : {
       "type" : "object",
-      "javaType" : "generated.antragsteller.Antragsteller",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.Antragsteller",
       "$ref" : "Antragsteller.json"
     },
     "antragsteller1" : {
       "type" : "object",
-      "javaType" : "generated.antragsteller.Antragsteller",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.Antragsteller",
       "$ref" : "Antragsteller.json"
     },
     "finanzbedarf" : {
       "type" : "object",
-      "javaType" : "generated.finanzbedarf.Finanzbedarf",
+      "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Finanzbedarf",
       "$ref" : "Finanzbedarf.json"
     },
     "bearbeiter" : {
       "type" : "object",
-      "javaType" : "generated.Partner",
+      "javaType" : "de.europace.kreditsmart.api.import.Partner",
       "$ref" : "Partner.json"
     },
     "haushalt" : {
       "type" : "object",
-      "javaType" : "generated.haushalt.Haushalt",
+      "javaType" : "de.europace.kreditsmart.api.import.haushalt.Haushalt",
       "$ref" : "Haushalt.json"
     },
     "leadquelle" : {

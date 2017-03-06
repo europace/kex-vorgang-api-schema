@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Finanzierungszweck",
   "type" : "string",
-  "javaType" : "generated.finanzbedarf.Finanzierungszweck",
+  "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Finanzierungszweck",
   "enum" : [ "UMSCHULDUNG", "FAHRZEUGKAUF", "MODERNISIEREN", "FREIE_VERWENDUNG" ]
 }

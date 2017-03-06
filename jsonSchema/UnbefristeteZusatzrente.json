@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "UnbefristeteZusatzrente",
   "type" : "object",
-  "javaType" : "generated.haushalt.einnahmen.UnbefristeteZusatzrente",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.einnahmen.UnbefristeteZusatzrente",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

@@ -2,16 +2,16 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Arbeiter",
   "type" : "object",
-  "javaType" : "generated.antragsteller.beschaeftigung.Arbeiter",
+  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Arbeiter",
   "properties" : {
     "beschaeftigungsverhaeltnis" : {
       "type" : "object",
-      "javaType" : "generated.antragsteller.beschaeftigung.Beschaeftigungsverhaeltnis",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Beschaeftigungsverhaeltnis",
       "$ref" : "Beschaeftigungsverhaeltnis.json"
     },
     "vorherigeresBeschaeftigungsverhaeltnis" : {
       "type" : "object",
-      "javaType" : "generated.antragsteller.beschaeftigung.VorherigesBeschaeftigungsverhaeltnis",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.VorherigesBeschaeftigungsverhaeltnis",
       "$ref" : "VorherigesBeschaeftigungsverhaeltnis.json"
     }
   }

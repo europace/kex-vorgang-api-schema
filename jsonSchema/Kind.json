@@ -2,14 +2,14 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Kind",
   "type" : "object",
-  "javaType" : "generated.haushalt.Kind",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.Kind",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },
   "properties" : {
     "kindergeldFuer" : {
       "type" : "string",
-      "javaType" : "generated.haushalt.Kindergeldzuordnung",
+      "javaType" : "de.europace.kreditsmart.api.import.haushalt.Kindergeldzuordnung",
       "$ref" : "Kindergeldzuordnung.json"
     },
     "unterhaltseinnahmenMonatlich" : {

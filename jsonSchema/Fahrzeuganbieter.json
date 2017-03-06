@@ -2,6 +2,6 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Fahrzeuganbieter",
   "type" : "string",
-  "javaType" : "generated.finanzbedarf.Fahrzeuganbieter",
+  "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Fahrzeuganbieter",
   "enum" : [ "HAENDLER", "PRIVAT" ]
 }

@@ -2,26 +2,26 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Finanzbedarf",
   "type" : "object",
-  "javaType" : "generated.finanzbedarf.Finanzbedarf",
+  "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Finanzbedarf",
   "properties" : {
     "fahrzeugkauf" : {
       "type" : "object",
-      "javaType" : "generated.finanzbedarf.Fahrzeugkauf",
+      "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Fahrzeugkauf",
       "$ref" : "Fahrzeugkauf.json"
     },
     "finanzierungszweck" : {
       "type" : "string",
-      "javaType" : "generated.finanzbedarf.Finanzierungszweck",
+      "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Finanzierungszweck",
       "$ref" : "Finanzierungszweck.json"
     },
     "finanzierungswunsch" : {
       "type" : "object",
-      "javaType" : "generated.finanzbedarf.Finanzierungswunsch",
+      "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Finanzierungswunsch",
       "$ref" : "Finanzierungswunsch.json"
     },
     "ratenschutz" : {
       "type" : "object",
-      "javaType" : "generated.finanzbedarf.Ratenschutz",
+      "javaType" : "de.europace.kreditsmart.api.import.finanzbedarf.Ratenschutz",
       "$ref" : "Ratenschutz.json"
     }
   }

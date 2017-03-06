@@ -2,19 +2,19 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Personendaten",
   "type" : "object",
-  "javaType" : "generated.antragsteller.personendaten.Personendaten",
+  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.personendaten.Personendaten",
   "properties" : {
     "titel" : {
       "type" : "array",
       "items" : {
         "type" : "string",
-        "javaType" : "generated.antragsteller.personendaten.Titel",
+        "javaType" : "de.europace.kreditsmart.api.import.antragsteller.personendaten.Titel",
         "$ref" : "Titel.json"
       }
     },
     "anrede" : {
       "type" : "string",
-      "javaType" : "generated.antragsteller.personendaten.Anrede",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.personendaten.Anrede",
       "$ref" : "Anrede.json"
     },
     "telefonGeschaeftlich" : {
@@ -42,7 +42,7 @@
     },
     "familienstand" : {
       "type" : "string",
-      "javaType" : "generated.antragsteller.personendaten.Familienstand",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.personendaten.Familienstand",
       "$ref" : "Familienstand.json"
     },
     "email" : {

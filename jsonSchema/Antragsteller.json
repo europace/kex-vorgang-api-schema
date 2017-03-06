@@ -2,16 +2,16 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Antragsteller",
   "type" : "object",
-  "javaType" : "generated.antragsteller.Antragsteller",
+  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.Antragsteller",
   "properties" : {
     "herkunft" : {
       "type" : "object",
-      "javaType" : "generated.antragsteller.herkunft.Herkunft",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.herkunft.Herkunft",
       "$ref" : "Herkunft.json"
     },
     "personendaten" : {
       "type" : "object",
-      "javaType" : "generated.antragsteller.personendaten.Personendaten",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.personendaten.Personendaten",
       "$ref" : "Personendaten.json"
     },
     "id" : {
@@ -19,12 +19,12 @@
     },
     "wohnsituation" : {
       "type" : "object",
-      "javaType" : "generated.antragsteller.wohnsituation.Wohnsituation",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.wohnsituation.Wohnsituation",
       "$ref" : "Wohnsituation.json"
     },
     "beschaeftigung" : {
       "type" : "object",
-      "javaType" : "generated.antragsteller.beschaeftigung.Beschaeftigung",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Beschaeftigung",
       "$ref" : "Beschaeftigung.json"
     }
   }

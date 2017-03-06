@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "BeamtenBeschaeftigungsVerhaeltnis",
   "type" : "object",
-  "javaType" : "generated.antragsteller.beschaeftigung.BeamtenBeschaeftigungsVerhaeltnis",
+  "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.BeamtenBeschaeftigungsVerhaeltnis",
   "properties" : {
     "inProbezeit" : {
       "type" : "boolean"
@@ -17,7 +17,7 @@
     },
     "arbeitgeber" : {
       "type" : "object",
-      "javaType" : "generated.antragsteller.beschaeftigung.Firma",
+      "javaType" : "de.europace.kreditsmart.api.import.antragsteller.beschaeftigung.Firma",
       "$ref" : "Firma.json"
     },
     "beschaeftigtSeit" : {

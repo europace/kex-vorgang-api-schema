@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Darlehen",
   "type" : "object",
-  "javaType" : "generated.haushalt.Darlehen",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.Darlehen",
   "properties" : {
     "restschuld" : {
       "type" : "Decimal"

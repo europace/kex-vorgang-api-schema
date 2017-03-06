@@ -2,7 +2,7 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "SonstigeAusgabe",
   "type" : "object",
-  "javaType" : "generated.haushalt.ausgaben.SonstigeAusgabe",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.ausgaben.SonstigeAusgabe",
   "extends" : {
     "$ref" : "Haushaltsposition.json"
   },

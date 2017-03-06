@@ -2,13 +2,13 @@
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "id" : "Verbindlichkeiten",
   "type" : "object",
-  "javaType" : "generated.haushalt.verbindlichkeiten.Verbindlichkeiten",
+  "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Verbindlichkeiten",
   "properties" : {
     "kreditkarten" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "generated.haushalt.verbindlichkeiten.Kreditkarte",
+        "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Kreditkarte",
         "$ref" : "Kreditkarte.json"
       }
     },
@@ -16,7 +16,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "generated.haushalt.verbindlichkeiten.Dispositionskredit",
+        "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Dispositionskredit",
         "$ref" : "Dispositionskredit.json"
       }
     },
@@ -24,7 +24,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "generated.haushalt.verbindlichkeiten.Ratenkredit",
+        "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Ratenkredit",
         "$ref" : "Ratenkredit.json"
       }
     },
@@ -32,7 +32,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "generated.haushalt.verbindlichkeiten.Leasing",
+        "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.Leasing",
         "$ref" : "Leasing.json"
       }
     },
@@ -40,7 +40,7 @@
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "generated.haushalt.verbindlichkeiten.SonstigeVerbindlichkeit",
+        "javaType" : "de.europace.kreditsmart.api.import.haushalt.verbindlichkeiten.SonstigeVerbindlichkeit",
         "$ref" : "SonstigeVerbindlichkeit.json"
       }
     }
