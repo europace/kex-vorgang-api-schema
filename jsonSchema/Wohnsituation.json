@@ -18,10 +18,10 @@
       "type" : "boolean"
     },
     "anzahlPersonenImHaushalt" : {
-      "type" : "Integer"
+      "type" : "integer"
     },
     "anzahlPkw" : {
-      "type" : "Integer"
+      "type" : "integer"
     },
     "voranschrift" : {
       "type" : "object",

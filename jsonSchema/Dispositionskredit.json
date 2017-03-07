@@ -8,13 +8,16 @@
   },
   "properties" : {
     "beanspruchterBetrag" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "zinssatz" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "verfuegungsrahmen" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "glaeubiger" : {
       "type" : "string"

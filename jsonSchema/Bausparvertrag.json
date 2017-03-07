@@ -8,10 +8,12 @@
   },
   "properties" : {
     "sparbeitragMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "angesparterBetrag" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     }
   }
 }

@@ -11,7 +11,8 @@
       "type" : "string"
     },
     "kaufpreis" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "erstzulassungsdatum" : {
       "type" : "string",
@@ -19,16 +20,17 @@
       "customDateTimePatter" : "YYYY-MM-DD"
     },
     "laufleistung" : {
-      "type" : "Integer"
+      "type" : "integer"
     },
     "kw" : {
-      "type" : "Integer"
+      "type" : "integer"
     },
     "beglicheneKosten" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "ps" : {
-      "type" : "Integer"
+      "type" : "integer"
     },
     "anbieter" : {
       "type" : "string",

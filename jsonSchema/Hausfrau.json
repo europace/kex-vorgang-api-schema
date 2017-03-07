@@ -5,7 +5,8 @@
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Hausfrau",
   "properties" : {
     "sonstigesEinkommenMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     }
   }
 }

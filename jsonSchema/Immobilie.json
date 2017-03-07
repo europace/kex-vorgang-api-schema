@@ -8,16 +8,19 @@
   },
   "properties" : {
     "mieteinnahmenWarmMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "vermieteteWohnflaeche" : {
-      "type" : "Integer"
+      "type" : "integer"
     },
     "nebenkostenMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "wert" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "darlehen" : {
       "type" : "array",
@@ -33,7 +36,8 @@
       "$ref" : "Nutzungsart.json"
     },
     "mieteinnahmenKaltMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "immobilienart" : {
       "type" : "string",
@@ -44,7 +48,7 @@
       "type" : "string"
     },
     "wohnflaeche" : {
-      "type" : "Integer"
+      "type" : "integer"
     }
   }
 }

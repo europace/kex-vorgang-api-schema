@@ -8,7 +8,8 @@
   },
   "properties" : {
     "betragMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "beginnDerTaetigkeit" : {
       "type" : "string",

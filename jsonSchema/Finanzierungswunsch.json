@@ -5,7 +5,7 @@
   "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Finanzierungswunsch",
   "properties" : {
     "laufzeitInMonaten" : {
-      "type" : "Integer"
+      "type" : "integer"
     },
     "ratenzahlungstermin" : {
       "type" : "string",
@@ -13,13 +13,16 @@
       "$ref" : "Ratenzahlungstermin.json"
     },
     "provisionswunschInProzent" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "kreditbetrag" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "rateMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     }
   }
 }

@@ -8,10 +8,12 @@
   },
   "properties" : {
     "rueckkaufswert" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "praemieMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     }
   }
 }

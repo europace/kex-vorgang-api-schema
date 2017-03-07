@@ -13,7 +13,8 @@
       "$ref" : "Kindergeldzuordnung.json"
     },
     "unterhaltseinnahmenMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "name" : {
       "type" : "string"

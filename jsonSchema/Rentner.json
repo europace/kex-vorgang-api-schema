@@ -5,7 +5,8 @@
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Rentner",
   "properties" : {
     "staatlicheRenteMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "rentenversicherung" : {
       "type" : "object",

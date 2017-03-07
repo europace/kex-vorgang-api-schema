@@ -5,7 +5,8 @@
   "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Darlehen",
   "properties" : {
     "restschuld" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "zinsbindungBis" : {
       "type" : "string",
@@ -13,7 +14,8 @@
       "customDateTimePatter" : "YYYY-MM-DD"
     },
     "rateMonatlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     }
   }
 }

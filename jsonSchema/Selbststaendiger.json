@@ -5,22 +5,28 @@
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Selbststaendiger",
   "properties" : {
     "einkommenssteuerVor2Jahren" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "bruttoEinkommenLaufendesJahr" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "einkommenssteuerLetztesJahr" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "abschreibungenVor3Jahren" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "bruttoEinkommenVor2Jahren" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "abschreibungenLaufendesJahr" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "firma" : {
       "type" : "object",
@@ -28,22 +34,28 @@
       "$ref" : "Firma.json"
     },
     "bruttoEinkommenLetztesJahr" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "abschreibungenVor2Jahren" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "nettoeinkommenJaehrlich" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "bruttoEinkommenVor3Jahren" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "einkommenssteuerVor3Jahren" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "einkommenssteuerLaufendesJahr" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "berufsbezeichnung" : {
       "type" : "string"
@@ -54,7 +66,8 @@
       "customDateTimePatter" : "YYYY-MM-DD"
     },
     "abschreibungenLetztesJahr" : {
-      "type" : "Decimal"
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     }
   }
 }
