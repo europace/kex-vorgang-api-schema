@@ -6,8 +6,8 @@
   "properties" : {
     "beschaeftigungsverhaeltnis" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.BeamtenBeschaeftigungsVerhaeltnis",
-      "$ref" : "BeamtenBeschaeftigungsVerhaeltnis.json"
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.BeamtenBeschaeftigungsverhaeltnis",
+      "$ref" : "BeamtenBeschaeftigungsverhaeltnis.json"
     },
     "vorherigeresBeschaeftigungsverhaeltnis" : {
       "type" : "object",

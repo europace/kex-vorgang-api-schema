@@ -1,8 +1,8 @@
 {
   "$schema" : "http://json-schema.org/draft-04/schema#",
-  "id" : "BeamtenBeschaeftigungsVerhaeltnis",
+  "id" : "BeamtenBeschaeftigungsverhaeltnis",
   "type" : "object",
-  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.BeamtenBeschaeftigungsVerhaeltnis",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.BeamtenBeschaeftigungsverhaeltnis",
   "properties" : {
     "inProbezeit" : {
       "type" : "boolean"
