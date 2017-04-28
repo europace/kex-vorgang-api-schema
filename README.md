@@ -1,1 +1,1 @@
-# pku-kex-vorgang-api-schema
+# kreditsmart-kex-vorgang-api-schema
