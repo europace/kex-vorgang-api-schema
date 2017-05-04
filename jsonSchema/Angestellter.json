@@ -4,15 +4,15 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Angestellter",
   "properties" : {
+    "vorherigesBeschaeftigungsverhaeltnis" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.VorherigesBeschaeftigungsverhaeltnis",
+      "$ref" : "VorherigesBeschaeftigungsverhaeltnis.json"
+    },
     "beschaeftigungsverhaeltnis" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beschaeftigungsverhaeltnis",
       "$ref" : "Beschaeftigungsverhaeltnis.json"
-    },
-    "vorherigeresBeschaeftigungsverhaeltnis" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.VorherigesBeschaeftigungsverhaeltnis",
-      "$ref" : "VorherigesBeschaeftigungsverhaeltnis.json"
     }
   }
 }
