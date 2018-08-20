@@ -37,6 +37,12 @@
       "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",
       "$ref" : "Partner.json"
     },
+    "kommentare" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
     "haushalt" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Haushalt",
