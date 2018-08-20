@@ -27,6 +27,9 @@
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Country",
       "$ref" : "Country.json"
     },
+    "steuerId" : {
+      "type" : "string"
+    },
     "aufenthaltstitel" : {
       "type" : "string",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.herkunft.Aufenthaltstitel",

@@ -1,0 +1,33 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "BeamtenBeschaeftigungsverhaeltnis",
+  "type" : "object",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.BeamtenBeschaeftigungsverhaeltnis",
+  "properties" : {
+    "inProbezeit" : {
+      "type" : "boolean"
+    },
+    "nettoeinkommenMonatlich" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "verbeamtetSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "arbeitgeber" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Firma",
+      "$ref" : "Firma.json"
+    },
+    "beschaeftigtSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "berufsbezeichnung" : {
+      "type" : "string"
+    }
+  }
+}
