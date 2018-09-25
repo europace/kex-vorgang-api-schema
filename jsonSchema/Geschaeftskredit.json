@@ -1,0 +1,40 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Geschaeftskredit",
+  "type" : "object",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Geschaeftskredit",
+  "extends" : {
+    "$ref" : "AbloesbareVerbindlichkeit.json"
+  },
+  "properties" : {
+    "urspruenglicherKreditbetrag" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "restschuld" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "schlussrate" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "datumErsteZahlung" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "datumLetzteRate" : {
+      "type" : "string",
+      "format" : "date",
+      "customDateTimePatter" : "YYYY-MM-DD"
+    },
+    "glaeubiger" : {
+      "type" : "string"
+    },
+    "rateMonatlich" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Kontokorrentkredit",
+  "type" : "object",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Kontokorrentkredit",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "beanspruchterBetrag" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "zinssatz" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "verfuegungsrahmen" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "glaeubiger" : {
+      "type" : "string"
+    }
+  }
+}

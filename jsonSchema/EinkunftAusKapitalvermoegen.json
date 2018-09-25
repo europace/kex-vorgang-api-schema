@@ -1,0 +1,15 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "EinkunftAusKapitalvermoegen",
+  "type" : "object",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.EinkunftAusKapitalvermoegen",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "betragMonatlich" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    }
+  }
+}

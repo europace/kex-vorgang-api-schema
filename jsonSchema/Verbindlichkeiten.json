@@ -4,6 +4,22 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Verbindlichkeiten",
   "properties" : {
+    "geschaeftskredite" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Geschaeftskredit",
+        "$ref" : "Geschaeftskredit.json"
+      }
+    },
+    "kontokorrentkredite" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Kontokorrentkredit",
+        "$ref" : "Kontokorrentkredit.json"
+      }
+    },
     "kreditkarten" : {
       "type" : "array",
       "items" : {

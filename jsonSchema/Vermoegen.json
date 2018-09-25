@@ -4,6 +4,30 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Vermoegen",
   "properties" : {
+    "depotvermoegen" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Depotvermoegen",
+        "$ref" : "Depotvermoegen.json"
+      }
+    },
+    "sonstigeVermoegenswerte" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.SonstigerVermoegenswert",
+        "$ref" : "SonstigerVermoegenswert.json"
+      }
+    },
+    "bankUndSparguthaben" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.BankUndSparguthaben",
+        "$ref" : "BankUndSparguthaben.json"
+      }
+    },
     "lebensversicherungen" : {
       "type" : "array",
       "items" : {

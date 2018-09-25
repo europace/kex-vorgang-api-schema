@@ -1,0 +1,15 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "SonstigerVermoegenswert",
+  "type" : "object",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.SonstigerVermoegenswert",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "betrag" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    }
+  }
+}

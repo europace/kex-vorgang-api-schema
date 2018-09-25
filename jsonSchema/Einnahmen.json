@@ -28,6 +28,14 @@
         "$ref" : "SonstigeEinnahme.json"
       }
     },
+    "einkuenfteAusKapitalvermoegen" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.EinkunftAusKapitalvermoegen",
+        "$ref" : "EinkunftAusKapitalvermoegen.json"
+      }
+    },
     "unbefristeteZusatzrenten" : {
       "type" : "array",
       "items" : {

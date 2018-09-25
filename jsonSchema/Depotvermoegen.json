@@ -1,0 +1,15 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Depotvermoegen",
+  "type" : "object",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Depotvermoegen",
+  "extends" : {
+    "$ref" : "Haushaltsposition.json"
+  },
+  "properties" : {
+    "betrag" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    }
+  }
+}
