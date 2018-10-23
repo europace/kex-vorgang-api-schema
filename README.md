@@ -2,6 +2,8 @@
 
 siehe https://github.com/hypoport/europace2-api/tree/master/KreditSmart/import
 
+Diese Schema-Dateien sind generiert und dürfen nicht händisch verändert werden, da diese Änderungen wieder verloren gehen.
+
 ## Verwendung
 
 Das folgende Beispiel zeigt die Nutzung von Gradle zur Generierung von Java-Klassen aus dem Schema. Dafür liegt der Ordner `jsonSchema`, der die Schema-Dateien enthält, im Wurzelverzeichnis des Projekts. Die POJOs werden in `/src/main/java` generiert.
