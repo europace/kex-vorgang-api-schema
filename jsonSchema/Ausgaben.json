@@ -35,14 +35,6 @@
         "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.Mietausgabe",
         "$ref" : "Mietausgabe.json"
       }
-    },
-    "sonstigeVersicherungsausgaben" : {
-      "type" : "array",
-      "items" : {
-        "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.SonstigeVersicherungsausgabe",
-        "$ref" : "SonstigeVersicherungsausgabe.json"
-      }
     }
   }
 }
