@@ -34,6 +34,11 @@
     "vorname" : {
       "type" : "string"
     },
+    "geburtsland" : {
+      "type" : "string",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Country",
+      "$ref" : "Country.json"
+    },
     "geburtsname" : {
       "type" : "string"
     },
