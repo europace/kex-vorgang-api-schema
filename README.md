@@ -1,6 +1,6 @@
 # KEX-Vorgang-Import-API
 
-siehe https://github.com/hypoport/europace2-api/tree/master/KreditSmart/import
+siehe https://github.com/europace/kex-vorgaenge-api
 
 Diese Schema-Dateien sind generiert und dürfen nicht händisch verändert werden, da diese Änderungen wieder verloren gehen.
 
