@@ -27,6 +27,9 @@
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Antragsteller",
       "$ref" : "Antragsteller.json"
     },
+    "baufiSmartVorgangsnummer" : {
+      "type" : "string"
+    },
     "finanzbedarf" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Finanzbedarf",
