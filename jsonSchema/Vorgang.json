@@ -4,6 +4,11 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.Vorgang",
   "properties" : {
+    "benachrichtigung" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.Benachrichtigung",
+      "$ref" : "Benachrichtigung.json"
+    },
     "tippgeber" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",

@@ -1,0 +1,11 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "id" : "Benachrichtigung",
+  "type" : "object",
+  "javaType" : "de.europace.kreditsmart.api.vorgang.Benachrichtigung",
+  "properties" : {
+    "aktiv" : {
+      "type" : "boolean"
+    }
+  }
+}
