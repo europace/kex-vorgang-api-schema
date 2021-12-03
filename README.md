@@ -2,9 +2,9 @@
 
 This schema is the basic model for the [kex-vorgang-import-api](https://github.com/europace/kex-vorgang-import-api).
 
-## Verwendung
+## Usage
 
-This example shows the the generation of Java-classes using our schema and gradle. 
+The following example shows the the generation of Java-classes using our schema and gradle. 
 For that the folder `jsonSchema` (containing our schema files) needs to be located in the root directory of the project. The generated POJOs are located in `/src/main/java`.
 
 ```
