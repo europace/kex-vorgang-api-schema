@@ -1,12 +1,11 @@
 # KEX-Vorgang-Import-API
 
-siehe https://github.com/europace/kex-vorgaenge-api
+This schema is the basic model for the [kex-vorgang-import-api](https://github.com/europace/kex-vorgang-import-api).
 
-Diese Schema-Dateien sind generiert und dürfen nicht händisch verändert werden, da diese Änderungen wieder verloren gehen.
+## Usage
 
-## Verwendung
-
-Das folgende Beispiel zeigt die Nutzung von Gradle zur Generierung von Java-Klassen aus dem Schema. Dafür liegt der Ordner `jsonSchema`, der die Schema-Dateien enthält, im Wurzelverzeichnis des Projekts. Die POJOs werden in `/src/main/java` generiert.
+The following example shows the generation of Java-classes using our schema and gradle. 
+For that, the folder `jsonSchema`, which contains our schema files, needs to be located in the root directory of the project. The generated POJOs are located in `/src/main/java`.
 
 ```
 buildscript {
