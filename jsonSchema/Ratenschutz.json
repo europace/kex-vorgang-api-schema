@@ -4,21 +4,20 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Ratenschutz",
   "properties" : {
-    "versicherteRisikenAntragsteller2" : {
-      "type" : "array",
-      "items" : {
-        "type" : "string",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.VersichertesRisiko",
-        "$ref" : "VersichertesRisiko.json"
-      }
+    "arbeitslosigkeitAbsicherung" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.RatenschutzAbsicherung",
+      "$ref" : "RatenschutzAbsicherung.json"
     },
-    "versicherteRisikenAntragsteller1" : {
-      "type" : "array",
-      "items" : {
-        "type" : "string",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.VersichertesRisiko",
-        "$ref" : "VersichertesRisiko.json"
-      }
+    "arbeitsunfaehigkeitAbsicherung" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.RatenschutzAbsicherung",
+      "$ref" : "RatenschutzAbsicherung.json"
+    },
+    "todesfallAbsicherung" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.RatenschutzAbsicherung",
+      "$ref" : "RatenschutzAbsicherung.json"
     }
   }
 }

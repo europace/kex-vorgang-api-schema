@@ -21,6 +21,16 @@
     },
     "ratenschutz" : {
       "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.RatenschutzOld",
+      "$ref" : "RatenschutzOld.json"
+    },
+    "ratenschutzAntragsteller2" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Ratenschutz",
+      "$ref" : "Ratenschutz.json"
+    },
+    "ratenschutzAntragsteller1" : {
+      "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Ratenschutz",
       "$ref" : "Ratenschutz.json"
     }
