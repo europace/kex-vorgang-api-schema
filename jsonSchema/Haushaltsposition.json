@@ -4,19 +4,19 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Haushaltsposition",
   "properties" : {
-    "antragstellerIds" : {
-      "type" : "array",
-      "items" : {
-        "type" : "string"
-      }
+    "id" : {
+      "type" : "string"
     },
     "gehoertZuAntragsteller" : {
       "type" : "string",
       "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Antragstellerzugehoerigkeit",
       "$ref" : "Antragstellerzugehoerigkeit.json"
     },
-    "id" : {
-      "type" : "string"
+    "antragstellerIds" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
     }
   }
 }

@@ -4,35 +4,35 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beschaeftigungsverhaeltnis",
   "properties" : {
-    "inProbezeit" : {
-      "type" : "boolean"
+    "arbeitgeber" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Firma",
+      "$ref" : "Firma.json"
+    },
+    "berufsbezeichnung" : {
+      "type" : "string"
     },
     "nettoeinkommenMonatlich" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
+    },
+    "beschaeftigtSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDatePattern" : "YYYY-MM-DD"
+    },
+    "inProbezeit" : {
+      "type" : "boolean"
     },
     "befristung" : {
       "type" : "string",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Befristung",
       "$ref" : "Befristung.json"
     },
-    "arbeitgeber" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Firma",
-      "$ref" : "Firma.json"
-    },
     "befristetBis" : {
       "type" : "string",
       "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
-    },
-    "beschaeftigtSeit" : {
-      "type" : "string",
-      "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
-    },
-    "berufsbezeichnung" : {
-      "type" : "string"
+      "customDatePattern" : "YYYY-MM-DD"
     }
   }
 }

@@ -4,46 +4,49 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.Vorgang",
   "properties" : {
-    "benachrichtigung" : {
+    "kundenbetreuer" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.Benachrichtigung",
-      "$ref" : "Benachrichtigung.json"
+      "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",
+      "$ref" : "Partner.json"
+    },
+    "bearbeiter" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",
+      "$ref" : "Partner.json"
     },
     "tippgeber" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",
       "$ref" : "Partner.json"
     },
+    "leadquelle" : {
+      "type" : "string"
+    },
     "eigeneVorgangsnummer" : {
       "type" : "string"
     },
-    "kundenbetreuer" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",
-      "$ref" : "Partner.json"
-    },
-    "antragsteller2" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Antragsteller",
-      "$ref" : "Antragsteller.json"
+    "baufiSmartVorgangsnummer" : {
+      "type" : "string"
     },
     "antragsteller1" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Antragsteller",
       "$ref" : "Antragsteller.json"
     },
-    "baufiSmartVorgangsnummer" : {
-      "type" : "string"
+    "antragsteller2" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Antragsteller",
+      "$ref" : "Antragsteller.json"
+    },
+    "haushalt" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Haushalt",
+      "$ref" : "Haushalt.json"
     },
     "finanzbedarf" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Finanzbedarf",
       "$ref" : "Finanzbedarf.json"
-    },
-    "bearbeiter" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.Partner",
-      "$ref" : "Partner.json"
     },
     "kommentare" : {
       "type" : "array",
@@ -51,13 +54,10 @@
         "type" : "string"
       }
     },
-    "haushalt" : {
+    "benachrichtigung" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Haushalt",
-      "$ref" : "Haushalt.json"
-    },
-    "leadquelle" : {
-      "type" : "string"
+      "javaType" : "de.europace.kreditsmart.api.vorgang.Benachrichtigung",
+      "$ref" : "Benachrichtigung.json"
     }
   }
 }

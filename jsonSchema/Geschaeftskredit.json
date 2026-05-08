@@ -7,11 +7,7 @@
     "$ref" : "AbloesbareVerbindlichkeit.json"
   },
   "properties" : {
-    "urspruenglicherKreditbetrag" : {
-      "type" : "number",
-      "javaType" : "java.math.BigDecimal"
-    },
-    "restschuld" : {
+    "rateMonatlich" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
@@ -19,22 +15,26 @@
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "datumErsteZahlung" : {
-      "type" : "string",
-      "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
-    },
     "datumLetzteRate" : {
       "type" : "string",
       "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
+      "customDatePattern" : "YYYY-MM-DD"
+    },
+    "restschuld" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "glaeubiger" : {
       "type" : "string"
     },
-    "rateMonatlich" : {
+    "urspruenglicherKreditbetrag" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
+    },
+    "datumErsteZahlung" : {
+      "type" : "string",
+      "format" : "date",
+      "customDatePattern" : "YYYY-MM-DD"
     }
   }
 }

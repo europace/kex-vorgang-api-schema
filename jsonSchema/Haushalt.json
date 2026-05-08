@@ -4,20 +4,13 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Haushalt",
   "properties" : {
-    "kontoverbindung" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Kontoverbindung",
-      "$ref" : "Kontoverbindung.json"
-    },
-    "verbindlichkeiten" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Verbindlichkeiten",
-      "$ref" : "Verbindlichkeiten.json"
-    },
-    "vermoegen" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Vermoegen",
-      "$ref" : "Vermoegen.json"
+    "kinder" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Kind",
+        "$ref" : "Kind.json"
+      }
     },
     "immobilien" : {
       "type" : "array",
@@ -26,6 +19,11 @@
         "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Immobilie",
         "$ref" : "Immobilie.json"
       }
+    },
+    "vermoegen" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Vermoegen",
+      "$ref" : "Vermoegen.json"
     },
     "ausgaben" : {
       "type" : "object",
@@ -37,13 +35,15 @@
       "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.Einnahmen",
       "$ref" : "Einnahmen.json"
     },
-    "kinder" : {
-      "type" : "array",
-      "items" : {
-        "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Kind",
-        "$ref" : "Kind.json"
-      }
+    "verbindlichkeiten" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Verbindlichkeiten",
+      "$ref" : "Verbindlichkeiten.json"
+    },
+    "kontoverbindung" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Kontoverbindung",
+      "$ref" : "Kontoverbindung.json"
     }
   }
 }

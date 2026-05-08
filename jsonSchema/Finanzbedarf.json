@@ -4,32 +4,32 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Finanzbedarf",
   "properties" : {
-    "fahrzeugkauf" : {
+    "finanzierungswunsch" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Fahrzeugkauf",
-      "$ref" : "Fahrzeugkauf.json"
+      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Finanzierungswunsch",
+      "$ref" : "Finanzierungswunsch.json"
     },
     "finanzierungszweck" : {
       "type" : "string",
       "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Finanzierungszweck",
       "$ref" : "Finanzierungszweck.json"
     },
-    "finanzierungswunsch" : {
+    "fahrzeugkauf" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Finanzierungswunsch",
-      "$ref" : "Finanzierungswunsch.json"
+      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Fahrzeugkauf",
+      "$ref" : "Fahrzeugkauf.json"
     },
     "ratenschutz" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.RatenschutzOld",
       "$ref" : "RatenschutzOld.json"
     },
-    "ratenschutzAntragsteller2" : {
+    "ratenschutzAntragsteller1" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Ratenschutz",
       "$ref" : "Ratenschutz.json"
     },
-    "ratenschutzAntragsteller1" : {
+    "ratenschutzAntragsteller2" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Ratenschutz",
       "$ref" : "Ratenschutz.json"

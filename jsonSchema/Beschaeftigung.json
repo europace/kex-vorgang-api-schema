@@ -4,15 +4,15 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beschaeftigung",
   "properties" : {
-    "selbststaendiger" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Selbststaendiger",
-      "$ref" : "Selbststaendiger.json"
+    "beschaeftigungsart" : {
+      "type" : "string",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beschaeftigungsart",
+      "$ref" : "Beschaeftigungsart.json"
     },
-    "beamter" : {
+    "angestellter" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beamter",
-      "$ref" : "Beamter.json"
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Angestellter",
+      "$ref" : "Angestellter.json"
     },
     "arbeiter" : {
       "type" : "object",
@@ -23,6 +23,11 @@
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Arbeitsloser",
       "$ref" : "Arbeitsloser.json"
+    },
+    "beamter" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beamter",
+      "$ref" : "Beamter.json"
     },
     "freiberufler" : {
       "type" : "object",
@@ -39,15 +44,10 @@
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Rentner",
       "$ref" : "Rentner.json"
     },
-    "beschaeftigungsart" : {
-      "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Beschaeftigungsart",
-      "$ref" : "Beschaeftigungsart.json"
-    },
-    "angestellter" : {
+    "selbststaendiger" : {
       "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Angestellter",
-      "$ref" : "Angestellter.json"
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Selbststaendiger",
+      "$ref" : "Selbststaendiger.json"
     }
   }
 }

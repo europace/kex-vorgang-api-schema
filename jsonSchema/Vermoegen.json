@@ -4,6 +4,30 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Vermoegen",
   "properties" : {
+    "bausparvertraege" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Bausparvertrag",
+        "$ref" : "Bausparvertrag.json"
+      }
+    },
+    "lebensversicherungen" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Lebensversicherung",
+        "$ref" : "Lebensversicherung.json"
+      }
+    },
+    "bankUndSparguthaben" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.BankUndSparguthaben",
+        "$ref" : "BankUndSparguthaben.json"
+      }
+    },
     "depotvermoegen" : {
       "type" : "array",
       "items" : {
@@ -18,30 +42,6 @@
         "type" : "object",
         "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.SonstigerVermoegenswert",
         "$ref" : "SonstigerVermoegenswert.json"
-      }
-    },
-    "bankUndSparguthaben" : {
-      "type" : "array",
-      "items" : {
-        "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.BankUndSparguthaben",
-        "$ref" : "BankUndSparguthaben.json"
-      }
-    },
-    "lebensversicherungen" : {
-      "type" : "array",
-      "items" : {
-        "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Lebensversicherung",
-        "$ref" : "Lebensversicherung.json"
-      }
-    },
-    "bausparvertraege" : {
-      "type" : "array",
-      "items" : {
-        "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.vermoegen.Bausparvertrag",
-        "$ref" : "Bausparvertrag.json"
       }
     }
   }

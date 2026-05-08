@@ -4,18 +4,18 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Firma",
   "properties" : {
-    "anschrift" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.Anschrift",
-      "$ref" : "Anschrift.json"
+    "name" : {
+      "type" : "string"
     },
     "branche" : {
       "type" : "string",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Branche",
       "$ref" : "Branche.json"
     },
-    "name" : {
-      "type" : "string"
+    "anschrift" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.Anschrift",
+      "$ref" : "Anschrift.json"
     }
   }
 }

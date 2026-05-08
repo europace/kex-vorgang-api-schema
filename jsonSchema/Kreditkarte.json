@@ -11,20 +11,20 @@
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "zinssatz" : {
+    "verfuegungsrahmen" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "verfuegungsrahmen" : {
+    "rateMonatlich" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "zinssatz" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
     "glaeubiger" : {
       "type" : "string"
-    },
-    "rateMonatlich" : {
-      "type" : "number",
-      "javaType" : "java.math.BigDecimal"
     }
   }
 }

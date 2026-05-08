@@ -4,23 +4,23 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Antragsteller",
   "properties" : {
-    "herkunft" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.herkunft.Herkunft",
-      "$ref" : "Herkunft.json"
+    "id" : {
+      "type" : "string"
     },
     "personendaten" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.personendaten.Personendaten",
       "$ref" : "Personendaten.json"
     },
-    "id" : {
-      "type" : "string"
-    },
     "wohnsituation" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.wohnsituation.Wohnsituation",
       "$ref" : "Wohnsituation.json"
+    },
+    "herkunft" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.herkunft.Herkunft",
+      "$ref" : "Herkunft.json"
     },
     "beschaeftigung" : {
       "type" : "object",

@@ -4,24 +4,6 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.herkunft.Herkunft",
   "properties" : {
-    "arbeitserlaubnisVorhanden" : {
-      "type" : "boolean"
-    },
-    "aufenthaltBefristetBis" : {
-      "type" : "string",
-      "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
-    },
-    "arbeitserlaubnisBefristetBis" : {
-      "type" : "string",
-      "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
-    },
-    "inDeutschlandSeit" : {
-      "type" : "string",
-      "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
-    },
     "staatsangehoerigkeit" : {
       "type" : "string",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Country",
@@ -30,10 +12,28 @@
     "steuerId" : {
       "type" : "string"
     },
+    "inDeutschlandSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDatePattern" : "YYYY-MM-DD"
+    },
     "aufenthaltstitel" : {
       "type" : "string",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.herkunft.Aufenthaltstitel",
       "$ref" : "Aufenthaltstitel.json"
+    },
+    "aufenthaltBefristetBis" : {
+      "type" : "string",
+      "format" : "date",
+      "customDatePattern" : "YYYY-MM-DD"
+    },
+    "arbeitserlaubnisVorhanden" : {
+      "type" : "boolean"
+    },
+    "arbeitserlaubnisBefristetBis" : {
+      "type" : "string",
+      "format" : "date",
+      "customDatePattern" : "YYYY-MM-DD"
     }
   }
 }

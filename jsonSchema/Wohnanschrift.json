@@ -10,7 +10,7 @@
     "wohnhaftSeit" : {
       "type" : "string",
       "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
+      "customDatePattern" : "YYYY-MM-DD"
     }
   }
 }

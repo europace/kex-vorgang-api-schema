@@ -12,6 +12,14 @@
         "$ref" : "EinkunftAusNebentaetigkeit.json"
       }
     },
+    "unbefristeteZusatzrenten" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.UnbefristeteZusatzrente",
+        "$ref" : "UnbefristeteZusatzrente.json"
+      }
+    },
     "ehegattenunterhalt" : {
       "type" : "array",
       "items" : {
@@ -34,14 +42,6 @@
         "type" : "object",
         "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.EinkunftAusKapitalvermoegen",
         "$ref" : "EinkunftAusKapitalvermoegen.json"
-      }
-    },
-    "unbefristeteZusatzrenten" : {
-      "type" : "array",
-      "items" : {
-        "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.einnahmen.UnbefristeteZusatzrente",
-        "$ref" : "UnbefristeteZusatzrente.json"
       }
     }
   }

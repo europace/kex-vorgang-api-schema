@@ -4,8 +4,9 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Finanzierungswunsch",
   "properties" : {
-    "laufzeitInMonaten" : {
-      "type" : "integer"
+    "kreditbetrag" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
     },
     "ratenzahlungstermin" : {
       "type" : "string",
@@ -16,9 +17,8 @@
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "kreditbetrag" : {
-      "type" : "number",
-      "javaType" : "java.math.BigDecimal"
+    "laufzeitInMonaten" : {
+      "type" : "integer"
     },
     "rateMonatlich" : {
       "type" : "number",

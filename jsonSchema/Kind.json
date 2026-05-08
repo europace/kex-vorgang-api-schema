@@ -7,6 +7,9 @@
     "$ref" : "Haushaltsposition.json"
   },
   "properties" : {
+    "name" : {
+      "type" : "string"
+    },
     "kindergeldFuer" : {
       "type" : "string",
       "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Kindergeldzuordnung",
@@ -15,9 +18,6 @@
     "unterhaltseinnahmenMonatlich" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
-    },
-    "name" : {
-      "type" : "string"
     }
   }
 }

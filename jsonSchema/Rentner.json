@@ -8,15 +8,15 @@
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
+    "rentnerSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDatePattern" : "YYYY-MM-DD"
+    },
     "rentenversicherung" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Rentenversicherung",
       "$ref" : "Rentenversicherung.json"
-    },
-    "rentnerSeit" : {
-      "type" : "string",
-      "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
     }
   }
 }

@@ -7,11 +7,11 @@
     "$ref" : "Haushaltsposition.json"
   },
   "properties" : {
-    "sparbeitragMonatlich" : {
+    "angesparterBetrag" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "angesparterBetrag" : {
+    "sparbeitragMonatlich" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     }

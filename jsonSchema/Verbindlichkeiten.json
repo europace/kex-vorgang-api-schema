@@ -4,28 +4,12 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Verbindlichkeiten",
   "properties" : {
-    "geschaeftskredite" : {
+    "ratenkredite" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Geschaeftskredit",
-        "$ref" : "Geschaeftskredit.json"
-      }
-    },
-    "kontokorrentkredite" : {
-      "type" : "array",
-      "items" : {
-        "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Kontokorrentkredit",
-        "$ref" : "Kontokorrentkredit.json"
-      }
-    },
-    "kreditkarten" : {
-      "type" : "array",
-      "items" : {
-        "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Kreditkarte",
-        "$ref" : "Kreditkarte.json"
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Ratenkredit",
+        "$ref" : "Ratenkredit.json"
       }
     },
     "dispositionskredite" : {
@@ -36,12 +20,12 @@
         "$ref" : "Dispositionskredit.json"
       }
     },
-    "ratenkredite" : {
+    "kreditkarten" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Ratenkredit",
-        "$ref" : "Ratenkredit.json"
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Kreditkarte",
+        "$ref" : "Kreditkarte.json"
       }
     },
     "leasings" : {
@@ -58,6 +42,22 @@
         "type" : "object",
         "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.SonstigeVerbindlichkeit",
         "$ref" : "SonstigeVerbindlichkeit.json"
+      }
+    },
+    "geschaeftskredite" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Geschaeftskredit",
+        "$ref" : "Geschaeftskredit.json"
+      }
+    },
+    "kontokorrentkredite" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.verbindlichkeiten.Kontokorrentkredit",
+        "$ref" : "Kontokorrentkredit.json"
       }
     }
   }

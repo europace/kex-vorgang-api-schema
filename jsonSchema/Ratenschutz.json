@@ -4,17 +4,17 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Ratenschutz",
   "properties" : {
+    "todesfallAbsicherung" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.RatenschutzAbsicherung",
+      "$ref" : "RatenschutzAbsicherung.json"
+    },
     "arbeitslosigkeitAbsicherung" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.RatenschutzAbsicherung",
       "$ref" : "RatenschutzAbsicherung.json"
     },
     "arbeitsunfaehigkeitAbsicherung" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.RatenschutzAbsicherung",
-      "$ref" : "RatenschutzAbsicherung.json"
-    },
-    "todesfallAbsicherung" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.RatenschutzAbsicherung",
       "$ref" : "RatenschutzAbsicherung.json"

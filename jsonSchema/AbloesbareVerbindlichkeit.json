@@ -7,16 +7,16 @@
     "$ref" : "Haushaltsposition.json"
   },
   "properties" : {
-    "iban" : {
-      "type" : "string"
-    },
     "abloesen" : {
       "type" : "boolean"
     },
-    "kreditinstitut" : {
+    "iban" : {
       "type" : "string"
     },
     "bic" : {
+      "type" : "string"
+    },
+    "kreditinstitut" : {
       "type" : "string"
     }
   }

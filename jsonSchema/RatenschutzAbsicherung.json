@@ -4,17 +4,17 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.RatenschutzAbsicherung",
   "properties" : {
-    "vorhanden" : {
+    "wichtig" : {
       "type" : "boolean"
     },
-    "kommentar" : {
-      "type" : "string"
+    "vorhanden" : {
+      "type" : "boolean"
     },
     "gewuenscht" : {
       "type" : "boolean"
     },
-    "wichtig" : {
-      "type" : "boolean"
+    "kommentar" : {
+      "type" : "string"
     }
   }
 }

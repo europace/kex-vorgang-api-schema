@@ -4,13 +4,13 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Rentenversicherung",
   "properties" : {
+    "name" : {
+      "type" : "string"
+    },
     "anschrift" : {
       "type" : "object",
       "javaType" : "de.europace.kreditsmart.api.vorgang.Anschrift",
       "$ref" : "Anschrift.json"
-    },
-    "name" : {
-      "type" : "string"
     }
   }
 }

@@ -10,10 +10,10 @@
     "iban" : {
       "type" : "string"
     },
-    "kreditinstitut" : {
+    "bic" : {
       "type" : "string"
     },
-    "bic" : {
+    "kreditinstitut" : {
       "type" : "string"
     }
   }

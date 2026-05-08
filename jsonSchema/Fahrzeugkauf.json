@@ -4,33 +4,33 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.finanzbedarf.Fahrzeugkauf",
   "properties" : {
-    "modell" : {
-      "type" : "string"
-    },
-    "marke" : {
-      "type" : "string"
-    },
     "kaufpreis" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
-    },
-    "erstzulassungsdatum" : {
-      "type" : "string",
-      "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
-    },
-    "laufleistung" : {
-      "type" : "integer"
-    },
-    "kw" : {
-      "type" : "integer"
     },
     "beglicheneKosten" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
+    "marke" : {
+      "type" : "string"
+    },
+    "modell" : {
+      "type" : "string"
+    },
+    "laufleistung" : {
+      "type" : "integer"
+    },
     "ps" : {
       "type" : "integer"
+    },
+    "kw" : {
+      "type" : "integer"
+    },
+    "erstzulassungsdatum" : {
+      "type" : "string",
+      "format" : "date",
+      "customDatePattern" : "YYYY-MM-DD"
     },
     "anbieter" : {
       "type" : "string",

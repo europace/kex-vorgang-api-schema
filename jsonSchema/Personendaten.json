@@ -4,6 +4,11 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.personendaten.Personendaten",
   "properties" : {
+    "anrede" : {
+      "type" : "string",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.personendaten.Anrede",
+      "$ref" : "Anrede.json"
+    },
     "titel" : {
       "type" : "array",
       "items" : {
@@ -12,26 +17,23 @@
         "$ref" : "Titel.json"
       }
     },
-    "anrede" : {
-      "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.personendaten.Anrede",
-      "$ref" : "Anrede.json"
-    },
-    "telefonGeschaeftlich" : {
+    "vorname" : {
       "type" : "string"
+    },
+    "nachname" : {
+      "type" : "string"
+    },
+    "familienstand" : {
+      "type" : "string",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.personendaten.Familienstand",
+      "$ref" : "Familienstand.json"
     },
     "geburtsdatum" : {
       "type" : "string",
       "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
-    },
-    "telefonPrivat" : {
-      "type" : "string"
+      "customDatePattern" : "YYYY-MM-DD"
     },
     "geburtsort" : {
-      "type" : "string"
-    },
-    "vorname" : {
       "type" : "string"
     },
     "geburtsland" : {
@@ -42,13 +44,11 @@
     "geburtsname" : {
       "type" : "string"
     },
-    "nachname" : {
+    "telefonPrivat" : {
       "type" : "string"
     },
-    "familienstand" : {
-      "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.personendaten.Familienstand",
-      "$ref" : "Familienstand.json"
+    "telefonGeschaeftlich" : {
+      "type" : "string"
     },
     "email" : {
       "type" : "string"

@@ -4,12 +4,12 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.Ausgaben",
   "properties" : {
-    "privateKrankenversicherungen" : {
+    "mietausgaben" : {
       "type" : "array",
       "items" : {
         "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.PrivateKrankenversicherung",
-        "$ref" : "PrivateKrankenversicherung.json"
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.Mietausgabe",
+        "$ref" : "Mietausgabe.json"
       }
     },
     "unterhaltsverpflichtungen" : {
@@ -20,20 +20,20 @@
         "$ref" : "Unterhaltsverpflichtung.json"
       }
     },
+    "privateKrankenversicherungen" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.PrivateKrankenversicherung",
+        "$ref" : "PrivateKrankenversicherung.json"
+      }
+    },
     "sonstigeAusgaben" : {
       "type" : "array",
       "items" : {
         "type" : "object",
         "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.SonstigeAusgabe",
         "$ref" : "SonstigeAusgabe.json"
-      }
-    },
-    "mietausgaben" : {
-      "type" : "array",
-      "items" : {
-        "type" : "object",
-        "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.ausgaben.Mietausgabe",
-        "$ref" : "Mietausgabe.json"
       }
     }
   }

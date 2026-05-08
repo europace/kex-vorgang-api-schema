@@ -7,18 +7,38 @@
     "$ref" : "Haushaltsposition.json"
   },
   "properties" : {
-    "mieteinnahmenWarmMonatlich" : {
+    "immobilienart" : {
+      "type" : "string",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Immobilienart",
+      "$ref" : "Immobilienart.json"
+    },
+    "bezeichnung" : {
+      "type" : "string"
+    },
+    "wert" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
-    },
-    "vermieteteWohnflaeche" : {
-      "type" : "integer"
     },
     "nebenkostenMonatlich" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "wert" : {
+    "wohnflaeche" : {
+      "type" : "integer"
+    },
+    "nutzungsart" : {
+      "type" : "string",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Nutzungsart",
+      "$ref" : "Nutzungsart.json"
+    },
+    "vermieteteWohnflaeche" : {
+      "type" : "integer"
+    },
+    "mieteinnahmenKaltMonatlich" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "mieteinnahmenWarmMonatlich" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
@@ -29,26 +49,6 @@
         "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Darlehen",
         "$ref" : "Darlehen.json"
       }
-    },
-    "nutzungsart" : {
-      "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Nutzungsart",
-      "$ref" : "Nutzungsart.json"
-    },
-    "mieteinnahmenKaltMonatlich" : {
-      "type" : "number",
-      "javaType" : "java.math.BigDecimal"
-    },
-    "immobilienart" : {
-      "type" : "string",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.haushalt.Immobilienart",
-      "$ref" : "Immobilienart.json"
-    },
-    "bezeichnung" : {
-      "type" : "string"
-    },
-    "wohnflaeche" : {
-      "type" : "integer"
     }
   }
 }

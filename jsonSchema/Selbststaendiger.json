@@ -4,7 +4,20 @@
   "type" : "object",
   "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Selbststaendiger",
   "properties" : {
-    "einkommenssteuerVor2Jahren" : {
+    "firma" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Firma",
+      "$ref" : "Firma.json"
+    },
+    "berufsbezeichnung" : {
+      "type" : "string"
+    },
+    "selbststaendigSeit" : {
+      "type" : "string",
+      "format" : "date",
+      "customDatePattern" : "YYYY-MM-DD"
+    },
+    "nettoeinkommenJaehrlich" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
@@ -12,15 +25,7 @@
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "einkommenssteuerLetztesJahr" : {
-      "type" : "number",
-      "javaType" : "java.math.BigDecimal"
-    },
-    "abschreibungenVor3Jahren" : {
-      "type" : "number",
-      "javaType" : "java.math.BigDecimal"
-    },
-    "bruttoEinkommenVor2Jahren" : {
+    "einkommenssteuerLaufendesJahr" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
@@ -28,20 +33,27 @@
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "firma" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.beschaeftigung.Firma",
-      "$ref" : "Firma.json"
-    },
     "bruttoEinkommenLetztesJahr" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "abschreibungenVor2Jahren" : {
+    "einkommenssteuerLetztesJahr" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "nettoeinkommenJaehrlich" : {
+    "abschreibungenLetztesJahr" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "bruttoEinkommenVor2Jahren" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "einkommenssteuerVor2Jahren" : {
+      "type" : "number",
+      "javaType" : "java.math.BigDecimal"
+    },
+    "abschreibungenVor2Jahren" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
@@ -53,19 +65,7 @@
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "einkommenssteuerLaufendesJahr" : {
-      "type" : "number",
-      "javaType" : "java.math.BigDecimal"
-    },
-    "berufsbezeichnung" : {
-      "type" : "string"
-    },
-    "selbststaendigSeit" : {
-      "type" : "string",
-      "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
-    },
-    "abschreibungenLetztesJahr" : {
+    "abschreibungenVor3Jahren" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     }

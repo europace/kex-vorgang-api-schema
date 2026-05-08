@@ -8,14 +8,14 @@
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
     },
-    "zinsbindungBis" : {
-      "type" : "string",
-      "format" : "date",
-      "customDateTimePatter" : "YYYY-MM-DD"
-    },
     "rateMonatlich" : {
       "type" : "number",
       "javaType" : "java.math.BigDecimal"
+    },
+    "zinsbindungBis" : {
+      "type" : "string",
+      "format" : "date",
+      "customDatePattern" : "YYYY-MM-DD"
     }
   }
 }

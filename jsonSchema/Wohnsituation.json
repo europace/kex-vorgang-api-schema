@@ -9,24 +9,24 @@
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.wohnsituation.Wohnanschrift",
       "$ref" : "Wohnanschrift.json"
     },
+    "voranschrift" : {
+      "type" : "object",
+      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.wohnsituation.Wohnanschrift",
+      "$ref" : "Wohnanschrift.json"
+    },
+    "gemeinsamerHaushalt" : {
+      "type" : "boolean"
+    },
     "wohnart" : {
       "type" : "string",
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.wohnsituation.Wohnart",
       "$ref" : "Wohnart.json"
-    },
-    "gemeinsamerHaushalt" : {
-      "type" : "boolean"
     },
     "anzahlPersonenImHaushalt" : {
       "type" : "integer"
     },
     "anzahlPkw" : {
       "type" : "integer"
-    },
-    "voranschrift" : {
-      "type" : "object",
-      "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.wohnsituation.Wohnanschrift",
-      "$ref" : "Wohnanschrift.json"
     }
   }
 }
