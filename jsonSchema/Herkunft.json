@@ -9,6 +9,14 @@
       "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Country",
       "$ref" : "Country.json"
     },
+    "weitereStaatsangehoerigkeiten" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string",
+        "javaType" : "de.europace.kreditsmart.api.vorgang.antragsteller.Country",
+        "$ref" : "Country.json"
+      }
+    },
     "steuerId" : {
       "type" : "string"
     },
